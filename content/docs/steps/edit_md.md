@@ -27,7 +27,7 @@ sidebar:
 現在の場所はプロジェクトのルートディレクトリ（playground）にあると仮定します。
 ターミナルから以下のコマンドを使用して移動して下さい。VSコードを使用している場合は画像のように画面を分割してターミナルを表示させておくと便利です。
 
-![terminal](/images/terminal.jpg)
+![terminal](../../images/terminal.JPG)
 
 ```bash
 # membersディレクトリに移動
@@ -44,7 +44,7 @@ New-Item love.md
 ```
 
 ## 2. Obsidianで`<username>.md`ファイルを編集する。
-![Obsidian](/images/obsidian.jpg)
+![Obsidian](../../images/obsidian.jpg)
 Obsidianを使うとマークダウンファイルの編集作業効率が非常に上がるのでおすすめです。先ほど作成したファイルをObsidianで開いてみましょう。
 まずはObsidianのホーム画面の **「保管庫としてフォルダを開く」** から、`menbers`フォルダを選択します。先ほど作成した`<username>.md`ファイルを自由に編集してみて下さい。マークダウン記法を使うと、記述した内容が実際にサイトで表示されるようにレンダリングされていることがわかると思います。見た目の調整はObsidianで編集することで大まかな部分を整えつつ、細かい部分はローカルホストで立ち上げたブラウザを確認しながら進めることをお勧めします。
 
@@ -62,7 +62,7 @@ sidebar:
 
 画像を差し込みたい場合は、`content/images`フォルダに画像を格納。
 ![テキスト](ファイルパス)という記述で差し込むことができます。
-`images`フォルダにある`love.jpg`を差し込みたい場合は、以下のように記述します。
+`images`フォルダにある`love.jpg`を差し込みたい場合は、以下のように記述します。(相対パスに注意)
 
 ![Love For Qom](/images/love.jpg)
 

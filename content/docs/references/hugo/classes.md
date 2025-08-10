@@ -1,8 +1,8 @@
 ---
 title: Classes
 type: docs
-prev: docs/references/_index
-next: docs/references/padding
+prev: 
+next: 
 sidebar:
   open: true
 ---

@@ -1,3 +1,12 @@
+---
+title: GitFlow
+type: docs
+prev: 
+next: 
+sidebar:
+  open: true
+---
+
 **GitFlow（ギットフロー）**　とは、**Gitを使ったチーム開発でのブランチ戦略（運用ルール）** の1つで、**Vincent Driessen**によって提案された開発フローです。複数人での開発や、リリース管理を効率的に行うためのベストプラクティスとして広く使われています。
 
 ---

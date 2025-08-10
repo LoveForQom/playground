@@ -1,3 +1,12 @@
+---
+title: Hero short codes
+type: docs
+prev: 
+next: 
+sidebar:
+  open: true
+---
+
 # Hero系ショートコード一覧
 
 ## 1. `hextra/hero-badge`

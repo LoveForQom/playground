@@ -9,7 +9,7 @@ sidebar:
 
 ## トップページに自分のカードを追加する
 
-![feature card](/images/feature_card.jpg)
+![feature card](../../images/feature_card.JPG)
 {{% steps %}}
 
 ### `content/_index.md`を編集し、カードセクションを追加する
@@ -26,7 +26,7 @@ sidebar:
 
 ファイル: **`content/_index.md`**
 
-![Codes](/images/codes.jpg)
+![Codes](../../images/codes.JPG)
 
 
 対象ファイルのコードを確認すると、今回はmdファイルの中に **`<div>タグ`** などのHTMLタグと **`{{</* hextra/hero-section */>}}`** のようなショートコードが使われていることがわかります。
