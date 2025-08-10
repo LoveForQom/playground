@@ -1,6 +1,6 @@
 ---
-title: 
-toc: false
+title: Teh Playground
+layout: "index-playground"
 ---
 
 ![image](./images/playground.JPG)
