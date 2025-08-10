@@ -5,3 +5,9 @@ resources/
 
 # Editor
 .vscode/
+
+# Obsidian
+.obsidian/workspace.json
+
+# Mac Finder
+.DS_Store

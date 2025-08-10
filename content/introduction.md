@@ -1,7 +1,15 @@
+---
+title: Introduction
+type: docs
+
+---
+
 ## Gitflow Hands-on Playground
 
 
+[画像追加予定]()
 Playgroundはチーム全員が **Gitflow** メソッドを体験しながら、Hugo + Hextra のサイト編集を学ぶための**実践用リポジトリ**です。学びたい意欲のある方は、どなたでもご参加いただけます。
+
 
 
 #### 目的：
@@ -38,15 +46,42 @@ Qom Wikiと同様の構成を再現した環境で、本ページの説明を見
 
 
 
-## 参加ルール
+## 1. リポジトリの取得と初期設定
 
-- ブランチ名：`feature/<username>` を厳守
+```bash
+# 1. クローン（SSH の例） 
+git clone git@github.com:LoveForQom/playground.git
+cd playground  
+
+# 2. 最新の dev ブランチのコードを取得 
+git fetch origin 
+git checkout dev 
+git pull origin dev
+
+# 3. 自分用の作業ブランチを作成してブランチの切り替え（例: feature/pomworld） 
+git checkout -b feature/pomworld
+```
+
+> [!caution]
+> 以降の作業は **必ず自分の `feature/<username>` ブランチ** で行ってください。
+
+
+## 2. ローカルプレビュー（Hugo）
+
+
+```bash
+# ターミナルでローカルサーバーを起動 
+hugo server --buildDrafts --disableFastRender
+```
+
+- ブラウザで `http://localhost:1313/` を開くとプレビューできます。
     
-- コミットメッセージ：目的が伝わること（`feat:`, `fix:`, `docs:` 等は推奨）
-    
-- PR の向き先は **必ず `dev`**（`main` 直は不可）
-    
-- PR 作成後は **Telegram で声かけ**
-    
-- レビュワーが「OK」なら `dev` → `main` の反映は管理者が実施
-    
+- このリポジトリは **Hugo の Hextra テンプレート**のクイックスタート構成を使用しています。
+ [IMFing](https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com),[GitHub](https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com)
+
+
+
+<div class="hx-mt-6 hx-mb-6 hx-text-right">
+{{< hextra/hero-button text="Next >>" link="../docs/steps/edit_md" >}}
+</div>
+

@@ -1,4 +1,4 @@
-module github.com/imfing/hextra-starter-template
+module github.com/loveforqom/playground
 
 go 1.21
 
