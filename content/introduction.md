@@ -7,7 +7,7 @@ type: docs
 ## Gitflow Hands-on Playground
 
 
-[画像追加予定]()
+![hands on](/images/hands_on.JPG)
 Playgroundはチーム全員が **Gitflow** メソッドを体験しながら、Hugo + Hextra のサイト編集を学ぶための**実践用リポジトリ**です。学びたい意欲のある方は、どなたでもご参加いただけます。
 
 
@@ -39,7 +39,7 @@ Qom Wikiと同様の構成を再現した環境で、本ページの説明を見
 
 - ローカルで [Hugo](https://gohugo.io/getting-started/quick-start/) が動く（`hugo version` が通ればOK / Extended推奨）
 
-- [Git Flow](/docs/references/git/gitflow)の手順に沿って作業を進めていくことを理解している
+- [Git Flow](../docs/references/git/gitflow)の手順に沿って作業を進めていくことを理解している
 
 > [!important]
 > まだ上記の準備がお済みでない場合は、まず[こちら](https://qom.wiki/docs/creators/gitguide/)を参考に必要な準備をお済ませください。

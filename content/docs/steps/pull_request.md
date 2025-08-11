@@ -23,13 +23,7 @@ sidebar:
 
 - GitHub 上で **base: `dev`** / **compare: `feature/<username>`** を選んで PR 作成
     
-- PR の説明欄に：
-    
-    - 変更点の概要
-        
-    - スクショ or ローカルプレビュー確認事項
-        
-    - 自分のページへのリンク
+- PR の説明欄に：変更点の概要を記載  -> "submit"ボタン   
         
 - **PRを作成したら Telegram で管理者に連絡**
     
@@ -39,8 +33,7 @@ sidebar:
 
 - レビューコメントが来たら、**同じブランチに修正コミット**してプッシュすれば PR に自動で反映されます。
     
-- `dev` の更新を取り込みたい場合：
-
+- 修正中に`dev` に変更があった場合は変更をプッシュできなくなることがあります。その場合：
 
 ```bash
 git fetch origin 
@@ -68,6 +61,3 @@ git branch -d feature/<username>
 
 git fetch -p
 ```
-
-
-

@@ -9,7 +9,7 @@ sidebar:
 
 ## トップページに自分のカードを追加する
 
-![feature card](../../images/feature_card.JPG)
+![feature card](/images/feature_card.JPG)
 {{% steps %}}
 
 ### `content/_index.md`を編集し、カードセクションを追加する
@@ -26,7 +26,7 @@ sidebar:
 
 ファイル: **`content/_index.md`**
 
-![Codes](../../images/codes.JPG)
+![Codes](/images/codes.JPG)
 
 
 対象ファイルのコードを確認すると、今回はmdファイルの中に **`<div>タグ`** などのHTMLタグと **`{{</* hextra/hero-section */>}}`** のようなショートコードが使われていることがわかります。
@@ -96,5 +96,5 @@ style="background: radial-gradient(ellipse at 50% 80%,rgba(200,80,0,0.3),hsla(0,
 
 ## 変更をコミット＆プッシュ
 
-`link`のパスが記述できたらホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
+`link`のパスが記述できたらローカルサーバー：1313を起動し、ブラウザからアクセスして下さい。ホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
 確認ができたら自分のブランチに変更をコミット＆プッシュしておきましょう。次はいよいよプルリクエストの作成です。
