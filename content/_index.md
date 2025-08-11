@@ -34,7 +34,7 @@ layout: "index-playground"
   {{< card
     title="Love For Qom"
     subtitle="What this place is and why we're here."
-    link="../docs/members/love"
+    link="./docs/members/love"
     tag="Owner"
     tagType="error"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
