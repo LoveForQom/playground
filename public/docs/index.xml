@@ -1,0 +1,1443 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playground – Documentation</title>
+    <link>//localhost:1313/docs/</link>
+    <description>Recent content in Documentation on Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/members/love/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/members/love/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/references/git/git-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/references/git/git-commands/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Classes</title>
+      <link>//localhost:1313/docs/references/hugo/classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/references/hugo/classes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;このページでは、クラスを使用してマージンやパディング、フォントのサイズや色、要素のレイアウトを指定する方法を説明します。クラスを使用してcssを適応できるため、別ファイルを作成する必要が減るため便利です。&lt;/p&gt;
+&lt;h2&gt;1. マージン（余白）の指定方法（Hextra/Tailwind prefix付き）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-マージン余白の指定方法hextratailwind-prefix付き&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e3%83%9e%e3%83%bc%e3%82%b8%e3%83%b3%e4%bd%99%e7%99%bd%e3%81%ae%e6%8c%87%e5%ae%9a%e6%96%b9%e6%b3%95hextratailwind-prefix%e4%bb%98%e3%81%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;content/_index.md&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;hx-mt-6 hx-mb-6&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Teh Playground
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;で囲まれた要素に対して上下方向に 1.5rem|24px|のマージン（空白）を入れる。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;マージンとは、要素の外側の余白のことです。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;クラス&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;ピクセル換算(基準: 1 = 0.25rem = 4px)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-m-0&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向マージン 0&lt;/td&gt;
+          &lt;td&gt;0px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-m-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向マージン 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-mb-2&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;下方向だけ 0.5rem&lt;/td&gt;
+          &lt;td&gt;8px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-mt-8&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上方向だけ 2rem&lt;/td&gt;
+          &lt;td&gt;32px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-ml-6&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左方向だけ 1.5rem&lt;/td&gt;
+          &lt;td&gt;24px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-mx-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左右だけ 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-my-10&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上下だけ 2.5rem&lt;/td&gt;
+          &lt;td&gt;40px&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;2. 主な方向指定の略語&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-主な方向指定の略語&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e4%b8%bb%e3%81%aa%e6%96%b9%e5%90%91%e6%8c%87%e5%ae%9a%e3%81%ae%e7%95%a5%e8%aa%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;接頭辞&lt;/th&gt;
+          &lt;th&gt;対象方向&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;m&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;mt&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上だけ (margin-top)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;mb&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;下だけ (margin-bottom)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;ml&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左だけ (margin-left)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;mr&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;右だけ (margin-right)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;mx&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左右両方&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;my&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上下両方&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;3. 数値スケール&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-数値スケール&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e6%95%b0%e5%80%a4%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tailwind のスケールは &lt;code&gt;0&lt;/code&gt;～&lt;code&gt;96&lt;/code&gt; のほか &lt;code&gt;px&lt;/code&gt;（1px）、&lt;code&gt;auto&lt;/code&gt; などがあり、&lt;br&gt;
+&lt;code&gt;n&lt;/code&gt; の値は &lt;strong&gt;n × 0.25rem&lt;/strong&gt; に変換されます。&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-mb-1&lt;/code&gt; → 0.25rem (4px)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-mb-6&lt;/code&gt; → 1.5rem (24px)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-mb-10&lt;/code&gt; → 2.5rem (40px)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. 応用（レスポンシブ対応）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-応用レスポンシブ対応&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-%e5%bf%9c%e7%94%a8%e3%83%ac%e3%82%b9%e3%83%9d%e3%83%b3%e3%82%b7%e3%83%96%e5%af%be%e5%bf%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tailwind はレスポンシブ指定も可能で、Hextraのprefix付きでも同じ書き方です。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;hx-mb-4 md:hx-mb-8 lg:hx-mb-12&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;   ... &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- md: → 画面幅 768px 以上なら下に32pxマージンをとる
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- lg: → 画面幅 1024px 以上なら下に48pxマージンをとる
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;5.　その他のユーティリティ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5その他のユーティリティ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e3%83%a6%e3%83%bc%e3%83%86%e3%82%a3%e3%83%aa%e3%83%86%e3%82%a3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;① パディング（Padding）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-パディングpadding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e3%83%91%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0padding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;クラス例&lt;/th&gt;
+          &lt;th&gt;効果&lt;/th&gt;
+          &lt;th&gt;ピクセル換算&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-p-0&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向 0&lt;/td&gt;
+          &lt;td&gt;0px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-p-2&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向 0.5rem&lt;/td&gt;
+          &lt;td&gt;8px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-p-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-p-6&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全方向 1.5rem&lt;/td&gt;
+          &lt;td&gt;24px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-pt-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上だけ 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-pb-8&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;下だけ 2rem&lt;/td&gt;
+          &lt;td&gt;32px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-pl-2&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左だけ 0.5rem&lt;/td&gt;
+          &lt;td&gt;8px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-pr-2&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;右だけ 0.5rem&lt;/td&gt;
+          &lt;td&gt;8px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-px-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;左右 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-py-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;上下 1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;② フォントサイズ（Font Size）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-フォントサイズfont-size&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88%e3%82%b5%e3%82%a4%e3%82%bafont-size&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;クラス&lt;/th&gt;
+          &lt;th&gt;サイズ&lt;/th&gt;
+          &lt;th&gt;px換算（目安）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-xs&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;0.75rem&lt;/td&gt;
+          &lt;td&gt;12px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-sm&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;0.875rem&lt;/td&gt;
+          &lt;td&gt;14px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-base&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;1rem&lt;/td&gt;
+          &lt;td&gt;16px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-lg&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;1.125rem&lt;/td&gt;
+          &lt;td&gt;18px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-xl&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;1.25rem&lt;/td&gt;
+          &lt;td&gt;20px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-2xl&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;1.5rem&lt;/td&gt;
+          &lt;td&gt;24px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-3xl&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;1.875rem&lt;/td&gt;
+          &lt;td&gt;30px&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-4xl&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;2.25rem&lt;/td&gt;
+          &lt;td&gt;36px&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;③ フォントウェイト（Font Weight）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-フォントウェイトfont-weight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%88font-weight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;クラス&lt;/th&gt;
+          &lt;th&gt;効果&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-thin&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;極細 (100)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-light&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;細め (300)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-normal&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;標準 (400)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-medium&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;中間 (500)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-semibold&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;やや太め (600)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-bold&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;太字 (700)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-font-extrabold&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;極太 (800)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;④ 色（テキスト色・背景色）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-色テキスト色背景色&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e8%89%b2%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e8%89%b2%e8%83%8c%e6%99%af%e8%89%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;テキスト色例&lt;/th&gt;
+          &lt;th&gt;背景色例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-red-500&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-bg-red-500&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-blue-500&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-bg-blue-500&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-gray-700&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-bg-gray-200&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-text-green-600&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-bg-green-100&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;色は Tailwind のカラーパレットに準拠（&lt;code&gt;50&lt;/code&gt;〜&lt;code&gt;900&lt;/code&gt; まで濃淡あり）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;5. レイアウト・その他&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-レイアウトその他&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%81%9d%e3%81%ae%e4%bb%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;クラス&lt;/th&gt;
+          &lt;th&gt;効果&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-flex&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;flexbox 有効化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-items-center&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;縦方向中央揃え&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-justify-center&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;横方向中央揃え&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-grid&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;grid 有効化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-grid-cols-3&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;3カラムレイアウト(中身の要素を3列で表示)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-gap-4&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;要素間の間隔 1rem (16px) に指定&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-rounded&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;要素の角を丸くする（デフォルト半径）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-rounded-lg&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;大きめの角丸&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-shadow&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;要素にシャドウを入れる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hx-shadow-lg&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;大きめシャドウ&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;💡 &lt;strong&gt;覚え方のコツ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-&lt;/code&gt; を外せば Tailwind CSS の公式ドキュメントの例そのまま&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数字は 4px単位（0.25rem）で増える&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;m&lt;/code&gt; と &lt;code&gt;p&lt;/code&gt; 系は上下左右の頭文字で方向指定 (&lt;code&gt;t&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, &lt;code&gt;l&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt;, &lt;code&gt;x&lt;/code&gt;, &lt;code&gt;y&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6. 参考リンク（元はTailwindドキュメント）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-参考リンク元はtailwindドキュメント&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-%e5%8f%82%e8%80%83%e3%83%aa%e3%83%b3%e3%82%af%e5%85%83%e3%81%aftailwind%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hextraでは &lt;code&gt;hx-&lt;/code&gt; が付くだけで、&lt;a href=&#34;https://tailwindcss.com/docs/margin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tailwind CSS Margin&lt;/a&gt; のすべてがそのまま使えます。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Demo Page</title>
+      <link>//localhost:1313/docs/first-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/first-page/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A simple demo page.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GitFlow</title>
+      <link>//localhost:1313/docs/references/git/gitflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/references/git/gitflow/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;GitFlow（ギットフロー）&lt;/strong&gt;　とは、&lt;strong&gt;Gitを使ったチーム開発でのブランチ戦略（運用ルール）&lt;/strong&gt; の1つで、&lt;strong&gt;Vincent Driessen&lt;/strong&gt;によって提案された開発フローです。複数人での開発や、リリース管理を効率的に行うためのベストプラクティスとして広く使われています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;🔧 GitFlowの基本的なブランチ構成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-gitflowの基本的なブランチ構成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-gitflow%e3%81%ae%e5%9f%ba%e6%9c%ac%e7%9a%84%e3%81%aa%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e6%a7%8b%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;GitFlowでは、以下のようなブランチを使い分けます：
+Playgroundでは、まず操作に慣れてもらうためにmainブランチ、devブランチ、feature/＊ブランチの3つのブランチを使用して実際の流れを体験してもらいます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ブランチ名&lt;/th&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;main&lt;/code&gt;（または &lt;code&gt;master&lt;/code&gt;）&lt;/td&gt;
+          &lt;td&gt;本番環境のコード。常に安定している状態が求められる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;dev&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;開発の中心となるブランチ。機能追加や修正はここをベースに行う。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;feature/*&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;機能開発用のブランチ。&lt;code&gt;develop&lt;/code&gt;から派生し、開発完了後は&lt;code&gt;develop&lt;/code&gt;にマージ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;release/*&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;リリース準備用ブランチ。&lt;code&gt;develop&lt;/code&gt;から派生し、バグ修正やバージョン番号の更新などを行い、&lt;code&gt;main&lt;/code&gt;と&lt;code&gt;develop&lt;/code&gt;にマージ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;hotfix/*&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;緊急修正用ブランチ。&lt;code&gt;main&lt;/code&gt;から派生し、修正後に&lt;code&gt;main&lt;/code&gt;と&lt;code&gt;develop&lt;/code&gt;にマージ。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;🔁 ブランチの構成イメージ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-ブランチの構成イメージ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ae%e6%a7%8b%e6%88%90%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;main  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ├── dev      
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; |  ├── feature/add-login
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; |	├── feature/add-payment
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; |	└── release/1.0.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; └── hotfix/fix-critical-bug&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;📝 開発フローの概要&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-開発フローの概要&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e9%96%8b%e7%99%ba%e3%83%95%e3%83%ad%e3%83%bc%e3%81%ae%e6%a6%82%e8%a6%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;新機能の開発&lt;/strong&gt;&lt;br&gt;
+→ &lt;code&gt;dev&lt;/code&gt; ブランチから &lt;code&gt;feature/*&lt;/code&gt; を作成して作業。終わったら &lt;code&gt;develop&lt;/code&gt; にマージ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;リリース準備&lt;/strong&gt;&lt;br&gt;
+→ &lt;code&gt;develop&lt;/code&gt; ブランチから &lt;code&gt;release/*&lt;/code&gt; を作成して、調整・テストを行い &lt;code&gt;main&lt;/code&gt; と &lt;code&gt;develop&lt;/code&gt; にマージ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;本番でバグ発見！&lt;/strong&gt;&lt;br&gt;
+→ &lt;code&gt;main&lt;/code&gt; から &lt;code&gt;hotfix/*&lt;/code&gt; を作って修正、修正後に &lt;code&gt;main&lt;/code&gt; と &lt;code&gt;develop&lt;/code&gt; にマージ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;🤝 GitFlowのメリット&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-gitflowのメリット&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-gitflow%e3%81%ae%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;機能追加・リリース・修正などの作業が明確に分離され、&lt;strong&gt;作業の混乱を避けやすい&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;チームでの&lt;strong&gt;並列開発&lt;/strong&gt;がやりやすい&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安定した本番コード（main）と開発コード（dev）の分離&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;✅ 開発ブランチ（featureブランチ）の作成手順&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-開発ブランチfeatureブランチの作成手順&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e9%96%8b%e7%99%ba%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81feature%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ae%e4%bd%9c%e6%88%90%e6%89%8b%e9%a0%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;🔧 前提&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-前提&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e5%89%8d%e6%8f%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;すでにローカルにリポジトリをクローン済み&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;dev&lt;/code&gt; ブランチが存在している&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬇️ 手順（ターミナル / Git Bash）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-手順ターミナル--git-bash&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e6%89%8b%e9%a0%86%e3%82%bf%e3%83%bc%e3%83%9f%e3%83%8a%e3%83%ab--git-bash&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. devブランチに切り替える &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout dev  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. 最新のdevelopブランチを取得しておく（他の人が更新している場合もあるため）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull origin dev  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. featureブランチを作成（名前は自由に設定。例：feature/love） &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b feature/love  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 4. 作業後、GitHubにプッシュ（初回は -u オプションでトラッキングも設定） &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin feature/login-form
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 5. 2回目以降のプッシュ&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;-b&lt;/code&gt; オプションは「新しいブランチを作って同時に切り替える」という意味です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;-u&lt;/code&gt; オプションは「このローカルブランチとGitHub上のリモートブランチを紐づける」ために使います。&lt;code&gt;-u&lt;/code&gt;オプションで紐づけられたら、以降は&lt;code&gt;git push&lt;/code&gt;のみでリポジトリにプッシュすることが可能になります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;💡 ブランチ名の命名ルール（推奨）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-ブランチ名の命名ルール推奨&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e5%90%8d%e3%81%ae%e5%91%bd%e5%90%8d%e3%83%ab%e3%83%bc%e3%83%ab%e6%8e%a8%e5%a5%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;GitFlowでは以下のような形式がよく使われます：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;feature/&lt;/code&gt;：機能追加&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;例：&lt;code&gt;feature/signup-page&lt;/code&gt;、&lt;code&gt;feature/add-payment&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;bugfix/&lt;/code&gt;：開発中の不具合修正&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hotfix/&lt;/code&gt;：本番環境の緊急修正&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Hero short codes</title>
+      <link>//localhost:1313/docs/references/hugo/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/references/hugo/hero/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Hero系ショートコード一覧&lt;/h1&gt;&lt;h2&gt;1. &lt;code&gt;hextra/hero-badge&lt;/code&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-hextrahero-badge&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-hextrahero-badge&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：ヒーローの最上部に置く小さなバッジ（ラベル）。中身はスロット（自由なHTML/ショートコード）で記述。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/hero-badge &amp;gt;}} 
+
+...（ `&amp;lt;span&amp;gt;` タグや `{{/*&amp;lt; icon … */&amp;gt;}}` を入れる 
+
+{{&amp;lt; /hextra/hero-badge &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;備考：バッジ内にHTMLや別ショートコードを混ぜるとレンダリングが崩れる事例あり（Markdown/HTML混在が原因）。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/424?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;パラメータ：&lt;strong&gt;（明示パラメータの公式記載なし）&lt;/strong&gt;。コンテンツをそのまま入れる前提。&lt;br&gt;
+※2024-12 のリリースで「badge にアイコン対応」が言及（内部対応）。 &lt;a href=&#34;https://github.com/imfing/hextra/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. &lt;code&gt;hextra/hero-headline&lt;/code&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-hextrahero-headline&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-hextrahero-headline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：ヒーローの大見出し（H1 相当の強い見出し）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/hero-headline &amp;gt;}}
+テキスト
+{{&amp;lt; /hextra/hero-headline &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;-　行の途中に &lt;code&gt;&amp;lt;br class=&amp;quot;…&amp;quot;&amp;gt;&lt;/code&gt; を挟む実例あり。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/411?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;a href=&#34;https://fung.uy/mycosystems/midtowndrafting.com/commit/70fbf819c7519ac80522a28999da125ebb996f3d?show-outdated=&amp;amp;style=unified&amp;amp;whitespace=show-all&amp;amp;utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Myco | Git&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パラメータ：&lt;strong&gt;なし（中身スロットのみ）&lt;/strong&gt;（確認できた範囲）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. &lt;code&gt;hextra/hero-subtitle&lt;/code&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-hextrahero-subtitle&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-hextrahero-subtitle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：ヒーローのサブタイトル。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/hero-subtitle &amp;gt;}}
+
+テキスト
+
+{{&amp;lt; /hextra/hero-subtitle &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;実利用例多数。
+&lt;a href=&#34;https://git.nicolabelluti.me/little-emulator/docs/src/commit/f9cf2928ed92e80a4f3ea42af83beb666f096d74/content/_index.md?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gitea: Git with a cup of tea+1Gitea: Git with a cup of tea+1&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パラメータ：&lt;strong&gt;なし（中身スロットのみ）&lt;/strong&gt;（確認できた範囲）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. &lt;code&gt;hextra/hero-button&lt;/code&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-hextrahero-button&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-hextrahero-button&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：ヒーロー内の主要CTAボタン。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/hero-button text=&amp;#34;Get Started&amp;#34; link=&amp;#34;docs&amp;#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;パラメータ（確認済み）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;text&lt;/code&gt;：ボタン表示文字列&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;link&lt;/code&gt;：リンク先パス/URL&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意：**テーマ作者いわく「ランディング専用の内部コンポーネントなので、むやみに流用しない方がよい」**とのコメントあり。必要なら自作（Tailwind）推奨。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/424?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. &lt;code&gt;hextra/hero-section&lt;/code&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-hextrahero-section&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-hextrahero-section&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：ヒーロー領域の&lt;strong&gt;セクション見出し&lt;/strong&gt;を作るユーティリティ（&lt;code&gt;h2&lt;/code&gt; デフォルト）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/hero-section &amp;gt;}}
+Used **Technologies　（デフォルトは h2 サイズの見出し）
+{{&amp;lt; /hextra/hero-section &amp;gt;}}
+
+{{&amp;lt; hextra/hero-section header=&amp;#34;h3&amp;#34; &amp;gt;}}
+Used Technologies （（h3 などに変更））
+{{&amp;lt; /hextra/hero-section &amp;gt;}} &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;パラメータ（確認済み）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;header&lt;/code&gt;：&lt;code&gt;h2&lt;/code&gt;/&lt;code&gt;h3&lt;/code&gt;/&lt;code&gt;h4&lt;/code&gt;… を指定（デフォルト &lt;code&gt;h2&lt;/code&gt;） &lt;a href=&#34;https://github.com/imfing/hextra/pull/390&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;style&lt;/code&gt;：インラインCSSを渡せる（&lt;code&gt;style=&amp;quot;{{ . | safeCSS }}&amp;quot;&lt;/code&gt; の実装あり） &lt;a href=&#34;https://github.com/imfing/hextra/issues/388?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6. &lt;code&gt;hextra/feature-grid&lt;/code&gt;（ヒーロー直下で並ぶカードの枠）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-hextrafeature-gridヒーロー直下で並ぶカードの枠&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-hextrafeature-grid%e3%83%92%e3%83%bc%e3%83%ad%e3%83%bc%e7%9b%b4%e4%b8%8b%e3%81%a7%e4%b8%a6%e3%81%b6%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e6%9e%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;役割：フィーチャーカードのグリッドコンテナ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使い方：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/feature-grid &amp;gt;}}
+
+…（feature-card を並べる）… 
+  
+{{&amp;lt; /hextra/feature-grid &amp;gt;}}. &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;実例多数。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/411?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パラメータ：&lt;strong&gt;なし&lt;/strong&gt;（確認できた範囲）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. &lt;code&gt;hextra/feature-card&lt;/code&gt;（グリッド内のカード）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-hextrafeature-cardグリッド内のカード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-hextrafeature-card%e3%82%b0%e3%83%aa%e3%83%83%e3%83%89%e5%86%85%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;役割：画像付きフィーチャーカード。先述の&lt;code&gt;hextra/feature-grid&lt;/code&gt;のショートコード内で使うことでカードの並びを自動で整理してくれる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;
+{{&amp;lt; hextra/feature-card
+    title=&amp;#34;Love For Qom&amp;#34;
+    subtitle=&amp;#34;Cypherpunks write code&amp;#34;
+    class=&amp;#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&amp;#34;
+    image=&amp;#34;images/sample4.jpg&amp;#34;
+    imageClass=&amp;#34;hx-top-[80%] hx-[24px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80&amp;#34;
+    style=&amp;#34;background: radial-gradient(ellipse at 50% 80%,rgba(255,0,255,0.3),hsla(0,0%,100%,0));&amp;#34;
+  &amp;gt;}}
+  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;よく使われるパラメータ（実利用から確認）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;：カードのタイトル&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;subtitle&lt;/code&gt;：サブタイトル&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;link&lt;/code&gt; :ファイルパス（相対パス）/URL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;class&lt;/code&gt;：カード全体に当てるクラス&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;image&lt;/code&gt;：画像パス/URL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;imageClass&lt;/code&gt;：画像要素に当てるクラス&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;style&lt;/code&gt;：インラインCSS（背景グラデ等）&lt;br&gt;
+実使用コードはテーマのQ&amp;amp;Aに多数掲載。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/411?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;
+（※完全な仕様はショートコードの実装を読む必要がありますが、上記はドキュメント/議論での反復使用が確認できるもの）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;使い方の実務ヒント&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使い方の実務ヒント&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%ae%e5%ae%9f%e5%8b%99%e3%83%92%e3%83%b3%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HTMLでラップしない&lt;/strong&gt;：Hero系を&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;で囲んでマージンを付けると、Markdown/Goldmarkの解釈順の都合で&lt;strong&gt;ショートコードが展開されなくなる&lt;/strong&gt;ことがあるので注意。余白は&lt;strong&gt;周辺に別ブロック&lt;/strong&gt;を置くか、&lt;code&gt;hero-section&lt;/code&gt; など&lt;strong&gt;ショートコード側&lt;/strong&gt;で調整するのが安定です。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/424?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;hero-button&lt;/code&gt;の過信に注意&lt;/strong&gt;：作者が「内部用なので流用は非推奨」と明言。ページ内のCTAは Tailwind で自作するか、既存の &lt;code&gt;cards&lt;/code&gt; 系で代替するのが無難。 &lt;a href=&#34;https://github.com/imfing/hextra/discussions/424?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;hero-section&lt;/code&gt;を積極活用&lt;/strong&gt;：ヒーロー直下のセクション見出しを追加したいニーズに対して、&lt;strong&gt;公式にマージ済みの解&lt;/strong&gt;。&lt;code&gt;header&lt;/code&gt; と &lt;code&gt;style&lt;/code&gt; を持つので、&lt;code&gt;feature-grid&lt;/code&gt; の前に見出しを置くなどがやりやすいです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>//localhost:1313/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/introduction/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Gitflow Hands-on Playground&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gitflow-hands-on-playground&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gitflow-hands-on-playground&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;&#34; &gt;画像追加予定&lt;/a&gt;
+Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッドを体験しながら、Hugo + Hextra のサイト編集を学ぶための&lt;strong&gt;実践用リポジトリ&lt;/strong&gt;です。学びたい意欲のある方は、どなたでもご参加いただけます。&lt;/p&gt;
+&lt;h4&gt;目的：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;目的&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%9b%ae%e7%9a%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Qom Wikiと同様の構成を再現した環境で、本ページの説明を見ながら実際に自分自身で作ってみることでページの構成要素や各パラメータの扱いなど、基本的な操作を理解し、共に飛行訓練に参加するための準備をここで行うことを目的とします。&lt;/p&gt;
+&lt;h4&gt;対象：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;対象&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%af%be%e8%b1%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;-　Qom Wikiの編集に参加してみたいが具体的な方法・手段を知りたい方&lt;/p&gt;
+&lt;p&gt;-　Gitの扱いに自信がなく、一度説明を見ながら体験をしてみたい方&lt;/p&gt;
+&lt;h4&gt;期待される成果：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;期待される成果&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%9f%e5%be%85%e3%81%95%e3%82%8c%e3%82%8b%e6%88%90%e6%9e%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Obsidianを利用したmd ファイルの効率的な編集とレイアウト調整&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hextraテンプレートを使用した実用的なHugoサイトビルド技術&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitFlowに則ったチーム共同開発の基本フローの体験&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitコマンドによるGitHubリポジトリの操作&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;0. 前提&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;0-前提&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#0-%e5%89%8d%e6%8f%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Git 使用法と GitHub アカウントを登録済み&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（推奨）SSH 接続設定済み（または HTTPS で OK）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;リポジトリのコラボレーターの招待を了承している（要連絡：TG:@LoveForQom88）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ローカルで &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; が動く（&lt;code&gt;hugo version&lt;/code&gt; が通ればOK / Extended推奨）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/docs/references/git/gitflow&#34; &gt;Git Flow&lt;/a&gt;の手順に沿って作業を進めていくことを理解している&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-indigo-200 hx-bg-indigo-100 hx-text-indigo-900 dark:hx-border-indigo-200/30 dark:hx-bg-indigo-900/30 dark:hx-text-indigo-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Important&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;まだ上記の準備がお済みでない場合は、まず&lt;a href=&#34;https://qom.wiki/docs/creators/gitguide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こちら&lt;/a&gt;を参考に必要な準備をお済ませください。&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;1. リポジトリの取得と初期設定&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-リポジトリの取得と初期設定&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%81%ae%e5%8f%96%e5%be%97%e3%81%a8%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. クローン（SSH の例） &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:LoveForQom/playground.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; playground  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. 最新の dev ブランチのコードを取得 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git fetch origin 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout dev 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull origin dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. 自分用の作業ブランチを作成してブランチの切り替え（例: feature/pomworld） &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b feature/pomworld&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-red-200 hx-bg-red-100 hx-text-red-900 dark:hx-border-red-200/30 dark:hx-bg-red-900/30 dark:hx-text-red-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Caution&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;以降の作業は &lt;strong&gt;必ず自分の &lt;code&gt;feature/&amp;lt;username&amp;gt;&lt;/code&gt; ブランチ&lt;/strong&gt; で行ってください。&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;2. ローカルプレビュー（Hugo）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-ローカルプレビューhugo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%97%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bchugo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# ターミナルでローカルサーバーを起動 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server --buildDrafts --disableFastRender&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ブラウザで &lt;code&gt;http://localhost:1313/&lt;/code&gt; を開くとプレビューできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;このリポジトリは &lt;strong&gt;Hugo の Hextra テンプレート&lt;/strong&gt;のクイックスタート構成を使用しています。
+&lt;a href=&#34;https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMFing&lt;/a&gt;,&lt;a href=&#34;https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hx-mt-6 hx-mb-6 hx-text-right&#34;&gt;
+&lt;a
+  href=&#34;../docs/steps/edit_md&#34;
+  class=&#34;not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200&#34;
+  
+  &gt;Next &amp;gt;&amp;gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Leaf Page</title>
+      <link>//localhost:1313/docs/folder/leaf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/folder/leaf/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This page is under a folder.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Step 1</title>
+      <link>//localhost:1313/docs/steps/edit_md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/steps/edit_md/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Obsidianを使ってmdファイルで自分のメンバーページを作る&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;obsidianを使ってmdファイルで自分のメンバーページを作る&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#obsidian%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6md%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a7%e8%87%aa%e5%88%86%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+&lt;h3&gt;自分の名前の&lt;code&gt;.md&lt;/code&gt;ファイルを&lt;code&gt;content/docs/members&lt;/code&gt;ディレクトリに作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;自分の名前のmdファイルをcontentdocsmembersディレクトリに作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%87%aa%e5%88%86%e3%81%ae%e5%90%8d%e5%89%8d%e3%81%aemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92contentdocsmembers%e3%83%87%e3%82%a3%e3%83%ac%e3%82%af%e3%83%88%e3%83%aa%e3%81%ab%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;Obsidianでファイルを編集&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;obsidianでファイルを編集&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#obsidian%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;変更をコミット＆プッシュする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;p&gt;最初のステップとなる今回は、まず正しいディレクトリに自分のファイルを作成し、Obsidianを使ってファイルを編集する方法を学びます。まずはとにかく手を動かしてみましょう。&lt;/p&gt;
+&lt;h3&gt;1.　自分の名前の&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを&lt;code&gt;content/docs/members&lt;/code&gt;ディレクトリに作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1自分の名前のusernamemdファイルをcontentdocsmembersディレクトリに作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1%e8%87%aa%e5%88%86%e3%81%ae%e5%90%8d%e5%89%8d%e3%81%aeusernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92contentdocsmembers%e3%83%87%e3%82%a3%e3%83%ac%e3%82%af%e3%83%88%e3%83%aa%e3%81%ab%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;まずはcd コマンドで目的のディレクトリに移動し、&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを作成していきます。
+現在の場所はプロジェクトのルートディレクトリ（playground）にあると仮定します。
+ターミナルから以下のコマンドを使用して移動して下さい。VSコードを使用している場合は画像のように画面を分割してターミナルを表示させておくと便利です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../images/terminal.JPG&#34; alt=&#34;terminal&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# membersディレクトリに移動&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; content/docs/members
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# &amp;lt;username&amp;gt;.mdファイルを作成（⚠️小文字の使用推奨）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## macターミナル&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch love.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## windows powershell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;New-Item love.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;2. Obsidianで&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを編集する。&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-obsidianでusernamemdファイルを編集する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-obsidian%e3%81%a7usernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;../../images/obsidian.jpg&#34; alt=&#34;Obsidian&#34; loading=&#34;lazy&#34; /&gt;
+Obsidianを使うとマークダウンファイルの編集作業効率が非常に上がるのでおすすめです。先ほど作成したファイルをObsidianで開いてみましょう。
+まずはObsidianのホーム画面の &lt;strong&gt;「保管庫としてフォルダを開く」&lt;/strong&gt; から、&lt;code&gt;menbers&lt;/code&gt;フォルダを選択します。先ほど作成した&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを自由に編集してみて下さい。マークダウン記法を使うと、記述した内容が実際にサイトで表示されるようにレンダリングされていることがわかると思います。見た目の調整はObsidianで編集することで大まかな部分を整えつつ、細かい部分はローカルホストで立ち上げたブラウザを確認しながら進めることをお勧めします。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;members/&amp;lt;username&amp;gt;.md&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# フロントマターを先頭に記述
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;type: docs 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sidebar:   
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;　open: true 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 見出し
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# ~ ###### (h1 ~ h6)までの見出しの文字の大きさを指定できます。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;画像を差し込みたい場合は、&lt;span class=&#34;sb&#34;&gt;`content/images`&lt;/span&gt;フォルダに画像を格納。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;テキスト&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;ファイルパス&lt;/span&gt;)という記述で差し込むことができます。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`images`&lt;/span&gt;フォルダにある&lt;span class=&#34;sb&#34;&gt;`love.jpg`&lt;/span&gt;を差し込みたい場合は、以下のように記述します。(相対パスに注意)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Love For Qom&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;/images/love.jpg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;例：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;step&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;///
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;step&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Twitter: … 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Telegram: … 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Link: …&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;テーマの詳細な設定や、ショートコード一覧は Hextra ドキュメントを参照してください。 &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/configuration/?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Document&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;3.  変更のコミットとプッシュ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--変更のコミットとプッシュ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--%e5%a4%89%e6%9b%b4%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%81%a8%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 変更をステージに上げる&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 意味のあるコミットメッセージで &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;add &amp;lt;username&amp;gt; profile page&amp;#34;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 初回は upstream 設定込みでプッシュ &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin feature/&amp;lt;username&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;の部分は自分のネームに置き換えて下さい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-indigo-200 hx-bg-indigo-100 hx-text-indigo-900 dark:hx-border-indigo-200/30 dark:hx-bg-indigo-900/30 dark:hx-text-indigo-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Important&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;push の際は必ずどのブランチにプッシュしようとしているかを確認して下さい。
+初回は&lt;code&gt;git push&lt;/code&gt; に&lt;code&gt;-u&lt;/code&gt; オプションをつけておくことで、2回目以降は&lt;code&gt;git push&lt;/code&gt; だけでプッシュできます。&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;トラブルシューティング（よくある）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;トラブルシューティングよくある&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Permission denied (publickey)&lt;/strong&gt;&lt;br&gt;
+→ GitHub に SSH 公開鍵を登録するか、HTTPS の URL でクローン/プッシュしてください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;dev&lt;/code&gt; が進んでいてコンフリクト&lt;/strong&gt;&lt;br&gt;
+→  &lt;code&gt;origin/dev&lt;/code&gt; を取り込み、コンフリクト解消後に再コミット &amp;amp; プッシュ。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Step 2</title>
+      <link>//localhost:1313/docs/steps/create_card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/steps/create_card/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;トップページに自分のカードを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;トップページに自分のカードを追加する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;../../images/feature_card.JPG&#34; alt=&#34;feature card&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+&lt;h3&gt;&lt;code&gt;content/_index.md&lt;/code&gt;を編集し、カードセクションを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;content_indexmdを編集しカードセクションを追加する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#content_indexmd%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%97%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;カードに値を追加して&lt;code&gt;Step 1&lt;/code&gt;で作成したファイルとリンクさせる&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カードに値を追加してstep-1で作成したファイルとリンクさせる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e5%80%a4%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;クラスにスタイルを追加して調整する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラスにスタイルを追加して調整する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;変更をコミット＆プッシュする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;p&gt;今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！&lt;/p&gt;
+&lt;p&gt;ファイル: &lt;strong&gt;&lt;code&gt;content/_index.md&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../images/codes.JPG&#34; alt=&#34;Codes&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;strong&gt;&lt;code&gt;&amp;lt;div&amp;gt;タグ&lt;/code&gt;&lt;/strong&gt; などのHTMLタグと &lt;strong&gt;&lt;code&gt;{{&amp;lt; hextra/hero-section &amp;gt;}}&lt;/code&gt;&lt;/strong&gt; のようなショートコードが使われていることがわかります。
+今回対象となるカードセクションは、まず&lt;code&gt;{{&amp;lt; hextra/feature-grid &amp;gt;}} ... {{&amp;lt; /hextra/feature-grid &amp;gt;}}&lt;/code&gt;というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード &lt;code&gt;{{&amp;lt; card &amp;gt;}}&lt;/code&gt;　が複数のプロパティ付きで装飾されています。&lt;/p&gt;
+&lt;h2&gt;📟 各パラメータの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-各パラメータの意味&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;feature-cardの主要属性&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;feature-cardの主要属性&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;属性名&lt;/th&gt;
+          &lt;th&gt;役割&lt;/th&gt;
+          &lt;th&gt;例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;カードの見出し&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;&amp;quot;Love For Qom&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;subtitle&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;補足説明（見出しの下）&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;&amp;quot;What this place is and why we&#39;re here.&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;link&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;リンクのパスを指定&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;内部リンク・外部リンク可&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;class&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;カードの外枠に適用するTailwindクラス（Hextraは&lt;code&gt;hx-&lt;/code&gt;付き）&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;カード背景や上部に表示する画像パス&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;&amp;quot;images/sample1.jpg&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;imageClass&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;画像要素に適用するクラス&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hx-absolute hx-max-w-[100%] ...&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;style&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;インラインCSSスタイルを直接指定&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;background: radial-gradient(...)&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;クラス指定の意味（今回の例）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラス指定の意味今回の例&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;class=&amp;#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-aspect-auto&lt;/code&gt; → 縦横比を自動設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;md:hx-aspect-[1.1/1]&lt;/code&gt; → 中画面サイズ以上では縦横比 1.1:1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;max-md:hx-min-h-[340px]&lt;/code&gt; → 中画面未満では高さ最小 340px&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;imageClass=&amp;#34;hx-top-[40%] hx-[24px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-top-[40%]&lt;/code&gt; → 画像の位置（上から40%）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-[24px]&lt;/code&gt; → 特殊クラス（おそらく位置か余白のカスタム値、テーマのTailwind設定依存）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;hx-w-[110%]&lt;/code&gt; → 幅110%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;sm:hx-w-[110%]&lt;/code&gt; → 小画面以上では幅110%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;dark:hx-opacity-80&lt;/code&gt; → ダークモード時に透明度80%&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;背景スタイルの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;背景スタイルの意味&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;style=&amp;#34;background: radial-gradient(ellipse at 50% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;背景にラジアルグラデーション&lt;/strong&gt;を適用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中心を少し下（50% 横方向中央、80% 縦方向）に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中心付近は橙系の薄い色&lt;code&gt;(200,80,0,0.3)&lt;/code&gt;、外側は透明&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;参考：Hextra の &lt;strong&gt;Card&lt;/strong&gt; ショートコード（使用例・パラメータ） &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/cards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IDocument&lt;/a&gt;
+&lt;a href=&#34;https://tailwindcss.com/docs/installation/using-vite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tailwindcss&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;変更をコミット＆プッシュ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;link&lt;/code&gt;のパスが記述できたらホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
+確認ができたら自分のブランチに変更をコミット＆プッシュしておきましょう。次はいよいよプルリクエストの作成です。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Step 3</title>
+      <link>//localhost:1313/docs/steps/pull_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/steps/pull_request/</guid>
+      <description>
+        
+        
+        &lt;p&gt;（下書き）&lt;/p&gt;
+&lt;h2&gt;PR を作成（feature → dev）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pr-を作成feature--dev&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pr-%e3%82%92%e4%bd%9c%e6%88%90feature--dev&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+&lt;h3&gt;GitHub 上で ** &lt;code&gt;dev&lt;/code&gt;ブランチに プルリクエスト（PR） 作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;github-上で--devブランチに-プルリクエストpr-作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#github-%e4%b8%8a%e3%81%a7--dev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ab-%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88pr-%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;レビューを受け、修正があれば修正を行う　=&amp;gt; 問題なければマージ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビューを受け修正があれば修正を行う-問題なければマージ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%82%92%e5%8f%97%e3%81%91%e4%bf%ae%e6%ad%a3%e3%81%8c%e3%81%82%e3%82%8c%e3%81%b0%e4%bf%ae%e6%ad%a3%e3%82%92%e8%a1%8c%e3%81%86-%e5%95%8f%e9%a1%8c%e3%81%aa%e3%81%91%e3%82%8c%e3%81%b0%e3%83%9e%e3%83%bc%e3%82%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;ブランチを削除する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ブランチを削除する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;h2&gt;プルリクエストの作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プルリクエストの作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub 上で &lt;strong&gt;base: &lt;code&gt;dev&lt;/code&gt;&lt;/strong&gt; / &lt;strong&gt;compare: &lt;code&gt;feature/&amp;lt;username&amp;gt;&lt;/code&gt;&lt;/strong&gt; を選んで PR 作成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PR の説明欄に：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;変更点の概要&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スクショ or ローカルプレビュー確認事項&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自分のページへのリンク&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PRを作成したら Telegram で管理者に連絡&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;レビュー → 修正 → マージの流れ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビュー--修正--マージの流れ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;レビューコメントが来たら、&lt;strong&gt;同じブランチに修正コミット&lt;/strong&gt;してプッシュすれば PR に自動で反映されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;dev&lt;/code&gt; の更新を取り込みたい場合：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git fetch origin 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout feature/&amp;lt;username&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# どちらでもOK（チーム標準に合わせる） &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge origin/dev 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# または &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rebase origin/dev git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;問題なければ管理者が &lt;code&gt;dev&lt;/code&gt; にマージし、適切なタイミングで &lt;code&gt;main&lt;/code&gt; に反映します（基本は管理者作業）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;完了後ブランチを削除&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;完了後ブランチを削除&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%8c%e4%ba%86%e5%be%8c%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e5%89%8a%e9%99%a4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;マージ後は GitHub 上の &lt;strong&gt;「Delete branch」&lt;/strong&gt; ボタンで &lt;code&gt;feature/&amp;lt;username&amp;gt;&lt;/code&gt; を削除&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ローカルでも削除してスッキリ：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch -d feature/&amp;lt;username&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git fetch -p&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

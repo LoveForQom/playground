@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+<link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+<link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
+<title>About – Playground</title>
+  <meta name="description" content="Gitflow Hands-on Playgroundチーム全員が Gitflow を体験しながら、Hugo &#43; Hextra のサイト編集を学ぶための実践用リポジトリです。
+作業は dev ブランチ を基点に、各自の feature/&lt;username&gt; ブランチで行い、PR で dev に統合します。レビュー後、管理者が main に反映します。
+0. 前提 Git 使用法と GitHub アカウントを登録済み
+（推奨）SSH 接続設定済み（または HTTPS で OK）
+ローカルで Hugo が動くこと（hugo version が通ればOK / Extended推奨）
+1) リポジトリの取得と初期設定 # 1. クローン（SSH の例） git clone git@github.com:&lt;OWNER&gt;/&lt;REPO&gt;.git cd &lt;REPO&gt; # 2. 最新の dev を取得 git fetch origin git checkout dev git pull origin dev # 3. 自分用の作業ブランチを作成（例: feature/pomworld） git switch -c feature/&lt;username&gt; 以降の作業は 必ず自分の feature/&lt;username&gt; ブランチ で行ってください。" /><link rel="canonical" href="//localhost:1313/about/" itemprop="url" />
+
+<meta property="og:title" content="About" />
+<meta property="og:description" content="Gitflow Hands-on Playgroundチーム全員が Gitflow を体験しながら、Hugo &#43; Hextra のサイト編集を学ぶための実践用リポジトリです。
+作業は dev ブランチ を基点に、各自の feature/&lt;username&gt; ブランチで行い、PR で dev に統合します。レビュー後、管理者が main に反映します。
+0. 前提
+    
+
+Git 使用法と GitHub アカウントを登録済み
+
+
+（推奨）SSH 接続設定済み（または HTTPS で OK）
+
+
+ローカルで Hugo が動くこと（hugo version が通ればOK / Extended推奨）
+
+
+
+1) リポジトリの取得と初期設定
+    
+
+# 1. クローン（SSH の例） 
+git clone git@github.com:&lt;OWNER&gt;/&lt;REPO&gt;.git 
+cd &lt;REPO&gt;  
+# 2. 最新の dev を取得 
+git fetch origin 
+git checkout dev 
+git pull origin dev  
+# 3. 自分用の作業ブランチを作成（例: feature/pomworld） 
+git switch -c feature/&lt;username&gt;
+  
+    
+    
+  
+
+
+
+  以降の作業は 必ず自分の feature/&lt;username&gt; ブランチ で行ってください。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/about/" /><meta property="article:section" content="" />
+
+
+
+  <meta itemprop="name" content="About">
+  <meta itemprop="description" content="Gitflow Hands-on Playgroundチーム全員が Gitflow を体験しながら、Hugo &#43; Hextra のサイト編集を学ぶための実践用リポジトリです。
+作業は dev ブランチ を基点に、各自の feature/&lt;username&gt; ブランチで行い、PR で dev に統合します。レビュー後、管理者が main に反映します。
+0. 前提 Git 使用法と GitHub アカウントを登録済み
+（推奨）SSH 接続設定済み（または HTTPS で OK）
+ローカルで Hugo が動くこと（hugo version が通ればOK / Extended推奨）
+1) リポジトリの取得と初期設定 # 1. クローン（SSH の例） git clone git@github.com:&lt;OWNER&gt;/&lt;REPO&gt;.git cd &lt;REPO&gt; # 2. 最新の dev を取得 git fetch origin git checkout dev git pull origin dev # 3. 自分用の作業ブランチを作成（例: feature/pomworld） git switch -c feature/&lt;username&gt; 以降の作業は 必ず自分の feature/&lt;username&gt; ブランチ で行ってください。">
+  <meta itemprop="wordCount" content="331">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="Gitflow Hands-on Playgroundチーム全員が Gitflow を体験しながら、Hugo &#43; Hextra のサイト編集を学ぶための実践用リポジトリです。
+作業は dev ブランチ を基点に、各自の feature/&lt;username&gt; ブランチで行い、PR で dev に統合します。レビュー後、管理者が main に反映します。
+0. 前提 Git 使用法と GitHub アカウントを登録済み
+（推奨）SSH 接続設定済み（または HTTPS で OK）
+ローカルで Hugo が動くこと（hugo version が通ればOK / Extended推奨）
+1) リポジトリの取得と初期設定 # 1. クローン（SSH の例） git clone git@github.com:&lt;OWNER&gt;/&lt;REPO&gt;.git cd &lt;REPO&gt; # 2. 最新の dev を取得 git fetch origin git checkout dev git pull origin dev # 3. 自分用の作業ブランチを作成（例: feature/pomworld） git switch -c feature/&lt;username&gt; 以降の作業は 必ず自分の feature/&lt;username&gt; ブランチ で行ってください。">
+
+    <link href="/css/compiled/main.css" rel="stylesheet" />
+
+
+
+  <link href="/css/custom.css" rel="stylesheet" />
+
+
+  <script>
+     
+    const defaultTheme = 'system';
+
+    const setDarkTheme = () => {
+      document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
+    }
+    const setLightTheme = () => {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
+    }
+
+    if ("color-theme" in localStorage) {
+      localStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
+    } else {
+      defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
+      if (defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
+      }
+    }
+  </script>
+
+  
+</head>
+<body dir="ltr"><div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
+  <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
+
+  <nav class="hx-mx-auto hx-flex hx-items-center hx-justify-end hx-gap-2 hx-h-16 hx-px-6 hx-max-w-[90rem]">
+    <a class="hx-flex hx-items-center hover:hx-opacity-75 ltr:hx-mr-auto rtl:hx-ml-auto" href="/">
+        <span class="hx-mr-2 hx-font-extrabold hx-inline hx-select-none" title="Playground">Playground</span>
+    </a><div class="search-wrapper hx-relative md:hx-w-64">
+  <div class="hx-relative hx-flex hx-items-center hx-text-gray-900 contrast-more:hx-text-gray-800 dark:hx-text-gray-300 contrast-more:dark:hx-text-gray-300">
+    <input
+      placeholder="Search..."
+      class="search-input hx-block hx-w-full hx-appearance-none hx-rounded-lg hx-px-3 hx-py-2 hx-transition-colors hx-text-base hx-leading-tight md:hx-text-sm hx-bg-black/[.05] dark:hx-bg-gray-50/10 focus:hx-bg-white dark:focus:hx-bg-dark placeholder:hx-text-gray-500 dark:placeholder:hx-text-gray-400 contrast-more:hx-border contrast-more:hx-border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx-absolute hx-my-1.5 hx-select-none ltr:hx-right-1.5 rtl:hx-left-1.5 hx-h-5 hx-rounded hx-bg-white hx-px-1.5 hx-font-mono hx-text-[10px] hx-font-medium hx-text-gray-500 hx-border dark:hx-border-gray-100/20 dark:hx-bg-dark/50 contrast-more:hx-border-current contrast-more:hx-text-current contrast-more:dark:hx-border-current hx-items-center hx-gap-1 hx-transition-opacity hx-pointer-events-none hx-hidden sm:hx-flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="search-results hextra-scrollbar hx-hidden hx-border hx-border-gray-200 hx-bg-white hx-text-gray-100 dark:hx-border-neutral-800 dark:hx-bg-neutral-900 hx-absolute hx-top-full hx-z-20 hx-mt-2 hx-overflow-auto hx-overscroll-contain hx-rounded-xl hx-py-2.5 hx-shadow-xl hx-max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] md:hx-max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx-inset-x-0 ltr:md:hx-left-auto rtl:md:hx-right-auto contrast-more:hx-border contrast-more:hx-border-gray-900 contrast-more:dark:hx-border-gray-50 hx-w-screen hx-min-h-[100px] hx-max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+
+          <a class="hx-p-2 hx-text-current" target="_blank" rel="noreferrer" href="https://github.com/LoveForQom/playground" title="GitHub"><svg height=24 fill="currentColor" viewBox="3 3 18 18">
+  <path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path>
+</svg>
+<span class="hx-sr-only">GitHub</span>
+          </a><button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
+  </nav>
+</div>
+
+  <div class='hx-mx-auto hx-flex hx-max-w-screen-xl'>
+    <div class="mobile-menu-overlay [transition:background-color_1.5s_ease] hx-fixed hx-inset-0 hx-z-10 hx-bg-black/80 dark:hx-bg-black/60 hx-hidden"></div>
+<aside class="sidebar-container hx-flex hx-flex-col print:hx-hidden md:hx-top-16 md:hx-shrink-0 md:hx-w-64 md:hx-self-start max-md:[transform:translate3d(0,-100%,0)] md:hx-hidden xl:hx-block">
+  
+  <div class="hx-px-4 hx-pt-4 md:hx-hidden">
+    <div class="search-wrapper hx-relative md:hx-w-64">
+  <div class="hx-relative hx-flex hx-items-center hx-text-gray-900 contrast-more:hx-text-gray-800 dark:hx-text-gray-300 contrast-more:dark:hx-text-gray-300">
+    <input
+      placeholder="Search..."
+      class="search-input hx-block hx-w-full hx-appearance-none hx-rounded-lg hx-px-3 hx-py-2 hx-transition-colors hx-text-base hx-leading-tight md:hx-text-sm hx-bg-black/[.05] dark:hx-bg-gray-50/10 focus:hx-bg-white dark:focus:hx-bg-dark placeholder:hx-text-gray-500 dark:placeholder:hx-text-gray-400 contrast-more:hx-border contrast-more:hx-border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx-absolute hx-my-1.5 hx-select-none ltr:hx-right-1.5 rtl:hx-left-1.5 hx-h-5 hx-rounded hx-bg-white hx-px-1.5 hx-font-mono hx-text-[10px] hx-font-medium hx-text-gray-500 hx-border dark:hx-border-gray-100/20 dark:hx-bg-dark/50 contrast-more:hx-border-current contrast-more:hx-text-current contrast-more:dark:hx-border-current hx-items-center hx-gap-1 hx-transition-opacity hx-pointer-events-none hx-hidden sm:hx-flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="search-results hextra-scrollbar hx-hidden hx-border hx-border-gray-200 hx-bg-white hx-text-gray-100 dark:hx-border-neutral-800 dark:hx-bg-neutral-900 hx-absolute hx-top-full hx-z-20 hx-mt-2 hx-overflow-auto hx-overscroll-contain hx-rounded-xl hx-py-2.5 hx-shadow-xl hx-max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] md:hx-max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx-inset-x-0 ltr:md:hx-left-auto rtl:md:hx-right-auto contrast-more:hx-border contrast-more:hx-border-gray-900 contrast-more:dark:hx-border-gray-50 hx-w-screen hx-min-h-[100px] hx-max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+
+  </div>
+  <div class="hextra-scrollbar hx-overflow-y-auto hx-overflow-x-hidden hx-p-4 hx-grow md:hx-h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx-flex hx-flex-col hx-gap-1 md:hx-hidden">
+      
+      
+          <li class="open"><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+    href="/about/"
+    
+  >About
+    </a>
+  
+    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
+              <a
+                href="#0-%e5%89%8d%e6%8f%90"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >0. 前提</a>
+            </li>
+          <li>
+              <a
+                href="#1-%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%81%ae%e5%8f%96%e5%be%97%e3%81%a8%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >1) リポジトリの取得と初期設定</a>
+            </li>
+          <li>
+              <a
+                href="#2-%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%97%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bchugo"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >2) ローカルプレビュー（Hugo）</a>
+            </li>
+          <li>
+              <a
+                href="#3-%e8%aa%b2%e9%a1%8ca%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >3) 課題A：トップページに自分のカードを追加</a>
+            </li>
+          <li>
+              <a
+                href="#4-%e8%aa%b2%e9%a1%8cb%e8%87%aa%e5%88%86%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e3%82%8b"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >4) 課題B：自分のメンバーページを作る</a>
+            </li>
+          <li>
+              <a
+                href="#5-%e5%a4%89%e6%9b%b4%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%81%a8%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >5) 変更のコミットとプッシュ</a>
+            </li>
+          <li>
+              <a
+                href="#6-pr-%e3%82%92%e4%bd%9c%e6%88%90feature--dev"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >6) PR を作成（feature → dev）</a>
+            </li>
+          <li>
+              <a
+                href="#7-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >7) レビュー → 修正 → マージの流れ</a>
+            </li>
+          <li>
+              <a
+                href="#8-%e5%ae%8c%e4%ba%86%e5%be%8c%e3%81%ae%e7%89%87%e4%bb%98%e3%81%91"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >8) 完了後の片付け</a>
+            </li>
+          <li>
+              <a
+                href="#%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >トラブルシューティング（よくある）</a>
+            </li>
+          <li>
+              <a
+                href="#%e5%8f%82%e5%8a%a0%e3%83%ab%e3%83%bc%e3%83%ab%e8%bb%bd%e9%87%8f"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >参加ルール（軽量）</a>
+            </li>
+          </ul>
+  </li>
+          <li class=""><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/"
+    
+  >Documentation
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
+    </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/first-page/"
+    
+  >Demo Page
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col open"><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/folder/"
+    
+  >Folder
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
+    </a>
+              <div class="ltr:hx-pr-0 hx-overflow-hidden">
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/folder/leaf/"
+    
+  >Leaf Page
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx-flex hx-flex-col open"><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/references/"
+    
+  >References
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
+    </a>
+              <div class="ltr:hx-pr-0 hx-overflow-hidden">
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/references/hero/"
+    
+  >Hero
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col open"><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/references/classes/"
+    
+  >Classes
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div></div>
+  
+  
+    <div class="md:hx-hidden  hx-sticky hx-bottom-0 hx-bg-white dark:hx-bg-dark hx-mx-4 hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none hx-border-t" data-toggle-animation="show"><div class="hx-flex hx-grow hx-flex-col"><button
+  title="Change theme"
+  data-theme="light"
+  class="theme-toggle hx-group hx-h-7 hx-rounded-md hx-px-2 hx-text-left hx-text-xs hx-font-medium hx-text-gray-600 hx-transition-colors dark:hx-text-gray-400 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50"
+  type="button"
+  aria-label="Change theme"
+>
+  <div class="hx-flex hx-items-center hx-gap-2 hx-capitalize"><svg height=12 class="group-data-[theme=light]:hx-hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="group-data-[theme=light]:hx-hidden">Light</span><svg height=12 class="group-data-[theme=dark]:hx-hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="group-data-[theme=dark]:hx-hidden">Dark</span></div>
+</button>
+</div></div></aside>
+    
+<nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
+    <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#0-%e5%89%8d%e6%8f%90">0. 前提
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#1-%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%81%ae%e5%8f%96%e5%be%97%e3%81%a8%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a">1) リポジトリの取得と初期設定
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#2-%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%97%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bchugo">2) ローカルプレビュー（Hugo）
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#3-%e8%aa%b2%e9%a1%8ca%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0">3) 課題A：トップページに自分のカードを追加
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#4-%e8%aa%b2%e9%a1%8cb%e8%87%aa%e5%88%86%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e3%82%8b">4) 課題B：自分のメンバーページを作る
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#5-%e5%a4%89%e6%9b%b4%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%81%a8%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5">5) 変更のコミットとプッシュ
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#6-pr-%e3%82%92%e4%bd%9c%e6%88%90feature--dev">6) PR を作成（feature → dev）
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#7-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c">7) レビュー → 修正 → マージの流れ
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#8-%e5%ae%8c%e4%ba%86%e5%be%8c%e3%81%ae%e7%89%87%e4%bb%98%e3%81%91">8) 完了後の片付け
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b">トラブルシューティング（よくある）
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%8f%82%e5%8a%a0%e3%83%ab%e3%83%bc%e3%83%ab%e8%bb%bd%e9%87%8f">参加ルール（軽量）
+        </a>
+      </li></ul>
+      <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/imfing/hextra-starter-template/edit/main/content/about.md" target="_blank" rel="noreferrer">Edit this page on GitHub →</a>
+        <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
+          <span>Scroll to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hx-inline ltr:hx-ml-1 rtl:hx-mr-1 hx-h-3.5 hx-w-3.5 hx-border hx-rounded-full hx-border-gray-500 hover:hx-border-gray-900 dark:hx-border-gray-400 dark:hover:hx-border-gray-100 contrast-more:hx-border-gray-800 contrast-more:dark:hx-border-gray-50">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <br class="hx-mt-1.5 hx-text-sm" />
+        <h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">About</h1>
+        <div class="hx-mb-16"></div>
+        <div class="content">
+          <h1>Gitflow Hands-on Playground</h1><p>チーム全員が <strong>Gitflow</strong> を体験しながら、Hugo + Hextra のサイト編集を学ぶための実践用リポジトリです。<br>
+作業は <strong><code>dev</code> ブランチ</strong> を基点に、各自の <strong><code>feature/&lt;username&gt;</code></strong> ブランチで行い、PR で <code>dev</code> に統合します。レビュー後、管理者が <code>main</code> に反映します。</p>
+<h2>0. 前提<span class="hx-absolute -hx-mt-20" id="0-前提"></span>
+    <a href="#0-%e5%89%8d%e6%8f%90" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p>Git 使用法と GitHub アカウントを登録済み</p>
+</li>
+<li>
+<p>（推奨）SSH 接続設定済み（または HTTPS で OK）</p>
+</li>
+<li>
+<p>ローカルで Hugo が動くこと（<code>hugo version</code> が通ればOK / Extended推奨）</p>
+</li>
+</ul>
+<hr>
+<h2>1) リポジトリの取得と初期設定<span class="hx-absolute -hx-mt-20" id="1-リポジトリの取得と初期設定"></span>
+    <a href="#1-%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%81%ae%e5%8f%96%e5%be%97%e3%81%a8%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. クローン（SSH の例） </span>
+</span></span><span class="line"><span class="cl">git clone git@github.com:&lt;OWNER&gt;/&lt;REPO&gt;.git 
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;REPO&gt;  
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 最新の dev を取得 </span>
+</span></span><span class="line"><span class="cl">git fetch origin 
+</span></span><span class="line"><span class="cl">git checkout dev 
+</span></span><span class="line"><span class="cl">git pull origin dev  
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 自分用の作業ブランチを作成（例: feature/pomworld） </span>
+</span></span><span class="line"><span class="cl">git switch -c feature/&lt;username&gt;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+<blockquote>
+  <p>以降の作業は <strong>必ず自分の <code>feature/&lt;username&gt;</code> ブランチ</strong> で行ってください。</p>
+</blockquote>
+<hr>
+<h2>2) ローカルプレビュー（Hugo）<span class="hx-absolute -hx-mt-20" id="2-ローカルプレビューhugo"></span>
+    <a href="#2-%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%97%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bchugo" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><code># ターミナルでローカルサーバーを起動 hugo server -D</code></p>
+<ul>
+<li>
+<p>ブラウザで <code>http://localhost:1313/</code> を開くとプレビューできます。</p>
+</li>
+<li>
+<p>このリポジトリは <strong>Hugo の Hextra テーマ</strong>のクイックスタート構成を使用しています。 <a href="https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com" target="_blank" rel="noopener">IMFing</a><a href="https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com" target="_blank" rel="noopener">GitHub</a></p>
+</li>
+</ul>
+<hr>
+<h2>3) 課題A：トップページに自分のカードを追加<span class="hx-absolute -hx-mt-20" id="3-課題aトップページに自分のカードを追加"></span>
+    <a href="#3-%e8%aa%b2%e9%a1%8ca%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>対象ファイル: <code>content/_index.md</code></p>
+<ol>
+<li>
+<p>既存のカードセクション（<code><div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;"> ... </div>
+</code>）があれば、その中に自分のカードを1枚追加。無ければ下記のように新規ブロックを作ってOK。</p>
+</li>
+<li>
+<p><strong>タイトル</strong>は自分の GitHub ユーザー名、<strong>サブタイトル</strong>は自由、<strong>画像</strong>はURLでもローカルでも可。</p>
+</li>
+<li>
+<p><strong>自分のページ</strong>（後述の <code>/members/&lt;username&gt;/</code>）にリンクしてください。</p>
+</li>
+</ol>
+<p>md</p>
+<p>コピーする</p>
+<p><code><div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">   <a
+     class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700"href="/members/%3cusername%3e/"
+       ><img
+         alt="&lt;username&gt;"
+         class="hextra-card-image"
+         loading="lazy"
+         decoding="async"
+         src="https://source.unsplash.com/featured/800x600?coding"
+         
+         
+         
+       /><span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;username&gt;</span><div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2">Hello Hextra!</div></a> </div>
+</code></p>
+<ul>
+<li>
+<p><code>image</code> はリモートURLのほか、<code>static/</code> 配下や <code>assets/</code> 配下の画像も利用可能（<code>method</code>/<code>options</code> で画像処理も可）。 <a href="https://imfing.github.io/hextra/docs/guide/shortcodes/cards/" target="_blank" rel="noopener">IMFing</a></p>
+</li>
+<li>
+<p><code>cols</code> で列数を調整できます（小さな画面では自動的に折り返されます）。 <a href="https://imfing.github.io/hextra/docs/guide/shortcodes/cards/" target="_blank" rel="noopener">IMFing</a></p>
+</li>
+</ul>
+<blockquote>
+  <p>参考：Hextra の <strong>Cards</strong> ショートコード（使用例・パラメータ） <a href="https://imfing.github.io/hextra/docs/guide/shortcodes/cards/" target="_blank" rel="noopener">IMFing</a></p>
+</blockquote>
+<hr>
+<h2>4) 課題B：自分のメンバーページを作る<span class="hx-absolute -hx-mt-20" id="4-課題b自分のメンバーページを作る"></span>
+    <a href="#4-%e8%aa%b2%e9%a1%8cb%e8%87%aa%e5%88%86%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>新規ディレクトリとファイルを作成：</p>
+<p>bash</p>
+<p>コピーする</p>
+<p><code>content/members/&lt;username&gt;/_index.md</code></p>
+<p>最小サンプル（必要に応じて加筆）：</p>
+<p>md</p>
+<p>コピーする</p>
+<p><code>--- title: &quot;&lt;username&gt;&quot; type: docs sidebar:   open: true ---  # &lt;username&gt;  自己紹介やスキル、担当領域などを自由に書いてください。  - Twitter: … - Telegram: … - Link: …</code></p>
+<blockquote>
+  <p>テーマのドキュメント系レイアウトを使いたい場合は <code>type: docs</code> を付ける運用が簡単です（サイト設定により不要な場合もあります）。テーマ設定やショートコード一覧は Hextra ドキュメントを参照してください。 <a href="https://imfing.github.io/hextra/docs/guide/configuration/?utm_source=chatgpt.com" target="_blank" rel="noopener">IMFing+1IMFing+1</a></p>
+</blockquote>
+<hr>
+<h2>5) 変更のコミットとプッシュ<span class="hx-absolute -hx-mt-20" id="5-変更のコミットとプッシュ"></span>
+    <a href="#5-%e5%a4%89%e6%9b%b4%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%81%a8%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>bash</p>
+<p>コピーする</p>
+<p><code># 変更確認 git status git add .  # 意味のあるコミットメッセージで git commit -m &quot;feat(members): add &lt;username&gt; card and profile page&quot;  # 初回は upstream 設定込みでプッシュ git push -u origin feature/&lt;username&gt;</code></p>
+<hr>
+<h2>6) PR を作成（feature → dev）<span class="hx-absolute -hx-mt-20" id="6-pr-を作成feature--dev"></span>
+    <a href="#6-pr-%e3%82%92%e4%bd%9c%e6%88%90feature--dev" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p>GitHub 上で <strong>base: <code>dev</code></strong> / <strong>compare: <code>feature/&lt;username&gt;</code></strong> を選んで PR 作成</p>
+</li>
+<li>
+<p>PR の説明欄に：</p>
+<ul>
+<li>
+<p>変更点の概要</p>
+</li>
+<li>
+<p>スクショ or ローカルプレビュー確認事項</p>
+</li>
+<li>
+<p>自分のページへのリンク</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>PRを作成したら Telegram で管理者に連絡</strong></p>
+</li>
+</ul>
+<hr>
+<h2>7) レビュー → 修正 → マージの流れ<span class="hx-absolute -hx-mt-20" id="7-レビュー--修正--マージの流れ"></span>
+    <a href="#7-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p>レビューコメントが来たら、<strong>同じブランチに修正コミット</strong>してプッシュすれば PR に自動で反映されます。</p>
+</li>
+<li>
+<p><code>dev</code> の更新を取り込みたい場合：</p>
+</li>
+</ul>
+<p>bash</p>
+<p>コピーする</p>
+<p><code>git fetch origin git checkout feature/&lt;username&gt; # どちらでもOK（チーム標準に合わせる） git merge origin/dev # または git rebase origin/dev git push</code></p>
+<ul>
+<li>問題なければ管理者が <code>dev</code> にマージし、適切なタイミングで <code>main</code> に反映します（基本は管理者作業）。</li>
+</ul>
+<hr>
+<h2>8) 完了後の片付け<span class="hx-absolute -hx-mt-20" id="8-完了後の片付け"></span>
+    <a href="#8-%e5%ae%8c%e4%ba%86%e5%be%8c%e3%81%ae%e7%89%87%e4%bb%98%e3%81%91" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p>マージ後は GitHub 上の <strong>「Delete branch」</strong> ボタンで <code>feature/&lt;username&gt;</code> を削除</p>
+</li>
+<li>
+<p>ローカルでも削除してスッキリ：</p>
+</li>
+</ul>
+<p>bash</p>
+<p>コピーする</p>
+<p><code>git branch -d feature/&lt;username&gt; git fetch -p</code></p>
+<hr>
+<h2>トラブルシューティング（よくある）<span class="hx-absolute -hx-mt-20" id="トラブルシューティングよくある"></span>
+    <a href="#%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p><strong>Permission denied (publickey)</strong><br>
+→ GitHub に SSH 公開鍵を登録するか、HTTPS の URL でクローン/プッシュしてください。</p>
+</li>
+<li>
+<p><strong><code>dev</code> が進んでいてコンフリクト</strong><br>
+→ 上の「merge / rebase」手順で <code>origin/dev</code> を取り込み、コンフリクト解消後に再コミット &amp; プッシュ。</p>
+</li>
+<li>
+<p><strong>Hugo が動かない / 画像が出ない</strong><br>
+→ <code>hugo version</code> で Extended になっているか確認。画像パスは <code>static/</code> or <code>assets/</code> の想定に合っているか見直し。 <a href="https://imfing.github.io/hextra/docs/guide/shortcodes/cards/" target="_blank" rel="noopener">IMFing</a></p>
+</li>
+</ul>
+<hr>
+<h2>参加ルール（軽量）<span class="hx-absolute -hx-mt-20" id="参加ルール軽量"></span>
+    <a href="#%e5%8f%82%e5%8a%a0%e3%83%ab%e3%83%bc%e3%83%ab%e8%bb%bd%e9%87%8f" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>
+<p>ブランチ名：<code>feature/&lt;username&gt;</code> を厳守</p>
+</li>
+<li>
+<p>コミットメッセージ：目的が伝わること（<code>feat:</code>, <code>fix:</code>, <code>docs:</code> 等は推奨）</p>
+</li>
+<li>
+<p>PR の向き先は <strong>必ず <code>dev</code></strong>（<code>main</code> 直は不可）</p>
+</li>
+<li>
+<p>PR 作成後は <strong>Telegram で声かけ</strong></p>
+</li>
+<li>
+<p>レビュワーが「OK」なら <code>dev</code> → <code>main</code> の反映は管理者が実施</p>
+</li>
+</ul>
+<hr>
+
+        </div>
+        <div class="hx-mt-16"></div>
+        
+      </main>
+    </article>
+  </div>
+
+      <footer class="hextra-footer hx-bg-gray-100 hx-pb-[env(safe-area-inset-bottom)] dark:hx-bg-neutral-900 print:hx-bg-transparent"><div class="hx-mx-auto hx-flex hx-gap-2 hx-py-2 hx-px-4 hx-max-w-screen-xl"><button
+  title="Change theme"
+  data-theme="light"
+  class="theme-toggle hx-group hx-h-7 hx-rounded-md hx-px-2 hx-text-left hx-text-xs hx-font-medium hx-text-gray-600 hx-transition-colors dark:hx-text-gray-400 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50"
+  type="button"
+  aria-label="Change theme"
+>
+  <div class="hx-flex hx-items-center hx-gap-2 hx-capitalize"><svg height=12 class="group-data-[theme=light]:hx-hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="group-data-[theme=light]:hx-hidden">Light</span><svg height=12 class="group-data-[theme=dark]:hx-hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="group-data-[theme=dark]:hx-hidden">Dark</span></div>
+</button>
+</div><hr class="dark:hx-border-neutral-800" /><div
+      class="hextra-custom-footer hx-max-w-screen-xl hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-right),1.5rem)] hx-text-gray-600 dark:hx-text-gray-400"
+    ></div></footer>
+    
+    <script defer src="/js/main.js" integrity=""></script>
+<script defer src="/lib/flexsearch/flexsearch.bundle.min.0425860527cc9968f9f049421c7a56b39327d475e2e3a8f550416be3a9134327.js" integrity="sha256-BCWGBSfMmWj58ElCHHpWs5Mn1HXi46j1UEFr46kTQyc="></script>
+    <script defer src="/en.search.js" integrity=""></script>
+  </body>
+</html>
