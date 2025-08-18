@@ -16,19 +16,6 @@
     
     <item>
       <title></title>
-      <link>//localhost:1313/docs/members/love/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/docs/members/love/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>//localhost:1313/docs/references/git/git-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -459,20 +446,6 @@
 &lt;/ul&gt;
 &lt;h2&gt;6. 参考リンク（元はTailwindドキュメント）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-参考リンク元はtailwindドキュメント&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#6-%e5%8f%82%e8%80%83%e3%83%aa%e3%83%b3%e3%82%af%e5%85%83%e3%81%aftailwind%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hextraでは &lt;code&gt;hx-&lt;/code&gt; が付くだけで、&lt;a href=&#34;https://tailwindcss.com/docs/margin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tailwind CSS Margin&lt;/a&gt; のすべてがそのまま使えます。&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Demo Page</title>
-      <link>//localhost:1313/docs/first-page/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/docs/first-page/</guid>
-      <description>
-        
-        
-        &lt;p&gt;A simple demo page.&lt;/p&gt;
 
       </description>
     </item>
@@ -917,13 +890,19 @@ Used Technologies （（h3 などに変更））
         
         
         &lt;h2&gt;Gitflow Hands-on Playground&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gitflow-hands-on-playground&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#gitflow-hands-on-playground&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;&#34; &gt;画像追加予定&lt;/a&gt;
+    &lt;a href=&#34;#gitflow-hands-on-playground&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/hands_on.JPG&#34; alt=&#34;hands on&#34; loading=&#34;lazy&#34; /&gt;
 Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッドを体験しながら、Hugo + Hextra のサイト編集を学ぶための&lt;strong&gt;実践用リポジトリ&lt;/strong&gt;です。学びたい意欲のある方は、どなたでもご参加いただけます。&lt;/p&gt;
 &lt;h4&gt;目的：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;目的&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%9b%ae%e7%9a%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Qom Wikiと同様の構成を再現した環境で、本ページの説明を見ながら実際に自分自身で作ってみることでページの構成要素や各パラメータの扱いなど、基本的な操作を理解し、共に飛行訓練に参加するための準備をここで行うことを目的とします。&lt;/p&gt;
 &lt;h4&gt;対象：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;対象&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%af%be%e8%b1%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;-　Qom Wikiの編集に参加してみたいが具体的な方法・手段を知りたい方&lt;/p&gt;
-&lt;p&gt;-　Gitの扱いに自信がなく、一度説明を見ながら体験をしてみたい方&lt;/p&gt;
+    &lt;a href=&#34;#%e5%af%be%e8%b1%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Qom Wikiの編集に参加してみたいが具体的な方法・手段を知りたい方&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gitの扱いに自信がなく、一度説明を見ながら体験をしてみたい方&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;期待される成果：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;期待される成果&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%9c%9f%e5%be%85%e3%81%95%e3%82%8c%e3%82%8b%e6%88%90%e6%9e%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -954,7 +933,7 @@ Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッ�
 &lt;p&gt;ローカルで &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; が動く（&lt;code&gt;hugo version&lt;/code&gt; が通ればOK / Extended推奨）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;//localhost:1313/docs/references/git/gitflow&#34; &gt;Git Flow&lt;/a&gt;の手順に沿って作業を進めていくことを理解している&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../docs/references/git/gitflow&#34; &gt;Git Flow&lt;/a&gt;の手順に沿って作業を進めていくことを理解している&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-indigo-200 hx-bg-indigo-100 hx-text-indigo-900 dark:hx-border-indigo-200/30 dark:hx-bg-indigo-900/30 dark:hx-text-indigo-200&#34;&gt;
@@ -1014,7 +993,7 @@ Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッ�
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;このリポジトリは &lt;strong&gt;Hugo の Hextra テンプレート&lt;/strong&gt;のクイックスタート構成を使用しています。
-&lt;a href=&#34;https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMFing&lt;/a&gt;,&lt;a href=&#34;https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hextra Documents&lt;/a&gt;,&lt;a href=&#34;https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hx-mt-6 hx-mb-6 hx-text-right&#34;&gt;
@@ -1030,15 +1009,29 @@ Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッ�
     </item>
     
     <item>
-      <title>Leaf Page</title>
-      <link>//localhost:1313/docs/folder/leaf/</link>
+      <title>Love For Qom</title>
+      <link>//localhost:1313/docs/members/love/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/docs/folder/leaf/</guid>
+      <guid>//localhost:1313/docs/members/love/</guid>
       <description>
         
         
-        &lt;p&gt;This page is under a folder.&lt;/p&gt;
+        &lt;h1&gt;見出し&lt;/h1&gt;&lt;p&gt;&lt;em&gt;# ~ ######&lt;/em&gt; (h1 ~ h6)までの見出しの文字の大きさを指定できます。&lt;/p&gt;
+&lt;p&gt;画像を差し込みたい場合は、&lt;code&gt;content/images&lt;/code&gt;フォルダに画像を格納。
+&amp;ldquo;! [テキスト] (ファイルパス)&amp;ldquo;という記述で差し込むことができます。
+&lt;code&gt;images&lt;/code&gt;フォルダにある&lt;code&gt;love.jpg&lt;/code&gt;を差し込みたい場合は、以下のように記述します。(相対パスに注意)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; alt=&#34;Love For Qom&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）&lt;/p&gt;
+&lt;figure class=&#34;img-fluid&#34;&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; width=&#34;400&#34; height=&#34;400&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter: …&lt;/li&gt;
+&lt;li&gt;Telegram: …&lt;/li&gt;
+&lt;li&gt;Link: …&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -1063,7 +1056,7 @@ Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッ�
     &lt;a href=&#34;#1%e8%87%aa%e5%88%86%e3%81%ae%e5%90%8d%e5%89%8d%e3%81%aeusernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92contentdocsmembers%e3%83%87%e3%82%a3%e3%83%ac%e3%82%af%e3%83%88%e3%83%aa%e3%81%ab%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;まずはcd コマンドで目的のディレクトリに移動し、&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを作成していきます。
 現在の場所はプロジェクトのルートディレクトリ（playground）にあると仮定します。
 ターミナルから以下のコマンドを使用して移動して下さい。VSコードを使用している場合は画像のように画面を分割してターミナルを表示させておくと便利です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../../images/terminal.JPG&#34; alt=&#34;terminal&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/terminal.JPG&#34; alt=&#34;terminal&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# membersディレクトリに移動&lt;/span&gt;
@@ -1086,7 +1079,7 @@ Playgroundはチーム全員が &lt;strong&gt;Gitflow&lt;/strong&gt; メソッ�
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;2. Obsidianで&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを編集する。&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-obsidianでusernamemdファイルを編集する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-obsidian%e3%81%a7usernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;../../images/obsidian.jpg&#34; alt=&#34;Obsidian&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;a href=&#34;#2-obsidian%e3%81%a7usernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/obsidian.JPG&#34; alt=&#34;Obsidian&#34; loading=&#34;lazy&#34; /&gt;
 Obsidianを使うとマークダウンファイルの編集作業効率が非常に上がるのでおすすめです。先ほど作成したファイルをObsidianで開いてみましょう。
 まずはObsidianのホーム画面の &lt;strong&gt;「保管庫としてフォルダを開く」&lt;/strong&gt; から、&lt;code&gt;menbers&lt;/code&gt;フォルダを選択します。先ほど作成した&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを自由に編集してみて下さい。マークダウン記法を使うと、記述した内容が実際にサイトで表示されるようにレンダリングされていることがわかると思います。見た目の調整はObsidianで編集することで大まかな部分を整えつつ、細かい部分はローカルホストで立ち上げたブラウザを確認しながら進めることをお勧めします。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -1108,14 +1101,10 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Love For Qom&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;/images/love.jpg&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;例：
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;step&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;///
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;step&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;figure&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/images/love.JPG&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;img-fluid&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -1177,7 +1166,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;dev&lt;/code&gt; が進んでいてコンフリクト&lt;/strong&gt;&lt;br&gt;
-→  &lt;code&gt;origin/dev&lt;/code&gt; を取り込み、コンフリクト解消後に再コミット &amp;amp; プッシュ。&lt;/p&gt;
+→  &lt;code&gt;origin/dev&lt;/code&gt; を取り込み、コンフリクト解消後に再コミット &amp;amp; プッシュ。&lt;a href=&#34;../pull_request&#34; &gt;詳細&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1194,21 +1183,55 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
         
         
         &lt;h2&gt;トップページに自分のカードを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;トップページに自分のカードを追加する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;../../images/feature_card.JPG&#34; alt=&#34;feature card&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/feature_card.JPG&#34; alt=&#34;feature card&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
 &lt;h3&gt;&lt;code&gt;content/_index.md&lt;/code&gt;を編集し、カードセクションを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;content_indexmdを編集しカードセクションを追加する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#content_indexmd%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%97%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;カードに値を追加して&lt;code&gt;Step 1&lt;/code&gt;で作成したファイルとリンクさせる&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カードに値を追加してstep-1で作成したファイルとリンクさせる&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e5%80%a4%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;クラスにスタイルを追加して調整する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラスにスタイルを追加して調整する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;変更をコミット＆プッシュする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#content_indexmd%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%97%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;クラスにスタイルを追加して調整する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラスにスタイルを追加して調整する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;カードにリンクを追加して&lt;code&gt;Step 1&lt;/code&gt;で作成したファイルとリンクさせる&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カードにリンクを追加してstep-1で作成したファイルとリンクさせる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;変更をコミット＆プッシュする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュする&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
-&lt;p&gt;今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！&lt;/p&gt;
-&lt;p&gt;ファイル: &lt;strong&gt;&lt;code&gt;content/_index.md&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../../images/codes.JPG&#34; alt=&#34;Codes&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;今回は、ホーム画面に画像付きのカードを作成し、&lt;strong&gt;Step1&lt;/strong&gt;で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！&lt;/p&gt;
+&lt;h2&gt;1. カードセクションの追加&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-カードセクションの追加&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%bf%bd%e5%8a%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ファイル: &lt;strong&gt;&lt;code&gt;content/_index.md&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/codes.JPG&#34; alt=&#34;Codes&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;strong&gt;&lt;code&gt;&amp;lt;div&amp;gt;タグ&lt;/code&gt;&lt;/strong&gt; などのHTMLタグと &lt;strong&gt;&lt;code&gt;{{&amp;lt; hextra/hero-section &amp;gt;}}&lt;/code&gt;&lt;/strong&gt; のようなショートコードが使われていることがわかります。
-今回対象となるカードセクションは、まず&lt;code&gt;{{&amp;lt; hextra/feature-grid &amp;gt;}} ... {{&amp;lt; /hextra/feature-grid &amp;gt;}}&lt;/code&gt;というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード &lt;code&gt;{{&amp;lt; card &amp;gt;}}&lt;/code&gt;　が複数のプロパティ付きで装飾されています。&lt;/p&gt;
-&lt;h2&gt;📟 各パラメータの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-各パラメータの意味&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;feature-cardの主要属性&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;feature-cardの主要属性&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+今回対象となるカードセクションは、まず&lt;code&gt;{{&amp;lt; hextra/feature-grid &amp;gt;}} ... {{&amp;lt; /hextra/feature-grid &amp;gt;}}&lt;/code&gt;というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード &lt;code&gt;{{&amp;lt; card &amp;gt;}}&lt;/code&gt;　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# カードを囲むグリッドのセクションのためのショートコード
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;hextra&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;feature-grid&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# カードのショートコード（各種パラメータを設定）
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;card&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;your user name&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;subtitle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;something blur blur blur&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# グリッドのセクションのショートコードはここまで
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;hextra&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;feature-grid&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;自分用の&lt;code&gt;{{&amp;lt; card &amp;gt;}}&lt;/code&gt;ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像は&lt;code&gt;content/images&lt;/code&gt;フォルダに追加して下さい。&lt;/p&gt;
+&lt;h3&gt;📟 各パラメータの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-各パラメータの意味&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;feature-cardの主要属性&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;feature-cardの主要属性&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;属性名&lt;/th&gt;
@@ -1254,8 +1277,8 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2&gt;クラス指定の意味（今回の例）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラス指定の意味今回の例&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+&lt;h4&gt;クラス指定の意味（今回の例）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;クラス指定の意味今回の例&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;pre&gt;&lt;code&gt;class=&amp;#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
@@ -1308,8 +1331,8 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;背景スタイルの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;背景スタイルの意味&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+&lt;h3&gt;背景スタイルの意味&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;背景スタイルの意味&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;pre&gt;&lt;code&gt;style=&amp;#34;background: radial-gradient(ellipse at 50% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
@@ -1336,8 +1359,10 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
   &lt;p&gt;参考：Hextra の &lt;strong&gt;Card&lt;/strong&gt; ショートコード（使用例・パラメータ） &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/cards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IDocument&lt;/a&gt;
 &lt;a href=&#34;https://tailwindcss.com/docs/installation/using-vite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tailwindcss&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;変更をコミット＆プッシュ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュ&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;link&lt;/code&gt;のパスが記述できたらホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
+&lt;h2&gt;2. カードにリンクを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-カードにリンクを追加する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;カードに値を追加できたら&lt;code&gt;Step 1&lt;/code&gt;で作成した記事とリンクさせるために&lt;code&gt;link&lt;/code&gt;プロパティを追加し、適切な相対パスを使用してカードと記事とをリンクさせて下さい。相対パスをどのように記述するかは自分で考えてみましょう。（わからなければ実際のコードを見て下さい。）&lt;/p&gt;
+&lt;h2&gt;3. 変更をコミット＆プッシュ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-変更をコミットプッシュ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;link&lt;/code&gt;のパスが記述できたらローカルサーバー：1313を起動し、ブラウザからアクセスして下さい。ホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
 確認ができたら自分のブランチに変更をコミット＆プッシュしておきましょう。次はいよいよプルリクエストの作成です。&lt;/p&gt;
 
       </description>
@@ -1352,54 +1377,63 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
       <description>
         
         
-        &lt;p&gt;（下書き）&lt;/p&gt;
-&lt;h2&gt;PR を作成（feature → dev）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pr-を作成feature--dev&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#pr-%e3%82%92%e4%bd%9c%e6%88%90feature--dev&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
-&lt;h3&gt;GitHub 上で ** &lt;code&gt;dev&lt;/code&gt;ブランチに プルリクエスト（PR） 作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;github-上で--devブランチに-プルリクエストpr-作成&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#github-%e4%b8%8a%e3%81%a7--dev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ab-%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88pr-%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;レビューを受け、修正があれば修正を行う　=&amp;gt; 問題なければマージ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビューを受け修正があれば修正を行う-問題なければマージ&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%82%92%e5%8f%97%e3%81%91%e4%bf%ae%e6%ad%a3%e3%81%8c%e3%81%82%e3%82%8c%e3%81%b0%e4%bf%ae%e6%ad%a3%e3%82%92%e8%a1%8c%e3%81%86-%e5%95%8f%e9%a1%8c%e3%81%aa%e3%81%91%e3%82%8c%e3%81%b0%e3%83%9e%e3%83%bc%e3%82%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;ブランチを削除する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ブランチを削除する&#34;&gt;&lt;/span&gt;
+        &lt;h2&gt;プルリクエスト(PR) を作成する（devブランチに向けて）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プルリクエストpr-を作成するdevブランチに向けて&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88pr-%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8bdev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ab%e5%90%91%e3%81%91%e3%81%a6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+&lt;h3&gt;GitHub 上で ** &lt;code&gt;dev&lt;/code&gt;ブランチにPR作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;github-上で--devブランチにpr作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#github-%e4%b8%8a%e3%81%a7--dev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%abpr%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;レビューを受け、修正があれば修正を行う =&amp;gt; 問題なければマージ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビューを受け修正があれば修正を行う--問題なければマージ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%82%92%e5%8f%97%e3%81%91%e4%bf%ae%e6%ad%a3%e3%81%8c%e3%81%82%e3%82%8c%e3%81%b0%e4%bf%ae%e6%ad%a3%e3%82%92%e8%a1%8c%e3%81%86--%e5%95%8f%e9%a1%8c%e3%81%aa%e3%81%91%e3%82%8c%e3%81%b0%e3%83%9e%e3%83%bc%e3%82%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;ブランチを削除する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ブランチを削除する&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
-&lt;h2&gt;プルリクエストの作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プルリクエストの作成&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;p&gt;今回は最終回となるプルリクエストの送信と、修正があった場合の対応の流れを確認していきます。それでは早速始めていきましょう。&lt;/p&gt;
+&lt;h2&gt;1. PRの作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-prの作成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-pr%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;GitHub 上で &lt;strong&gt;base: &lt;code&gt;dev&lt;/code&gt;&lt;/strong&gt; / &lt;strong&gt;compare: &lt;code&gt;feature/&amp;lt;username&amp;gt;&lt;/code&gt;&lt;/strong&gt; を選んで PR 作成&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;PR の説明欄に：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;変更点の概要&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;スクショ or ローカルプレビュー確認事項&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;自分のページへのリンク&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;PR の説明欄に：変更点の概要を記載  -&amp;gt; &amp;ldquo;submit&amp;quot;ボタン&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;PRを作成したら Telegram で管理者に連絡&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;レビュー → 修正 → マージの流れ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビュー--修正--マージの流れ&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;レビューコメントが来たら、&lt;strong&gt;同じブランチに修正コミット&lt;/strong&gt;してプッシュすれば PR に自動で反映されます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;dev&lt;/code&gt; の更新を取り込みたい場合：&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/pullrequest.JPG&#34; alt=&#34;Pullrequeat&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;2. レビュー → 修正 → マージの流れ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-レビュー--修正--マージの流れ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc--%e4%bf%ae%e6%ad%a3--%e3%83%9e%e3%83%bc%e3%82%b8%e3%81%ae%e6%b5%81%e3%82%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;レビューで問題がなければ、そのままマージされます。レビューコメントで修正依頼が来たら、&lt;strong&gt;同じブランチに修正コミット&lt;/strong&gt;してプッシュすれば PR に自動で反映されます。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# これまでと同じように編集&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# コメントは意味のあるコメントに&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;修正内容をコメント&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 初回で　`-u`オプションをつけた場合はpushのみで変更をリモートにプッシュできます。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;修正中に&lt;code&gt;dev&lt;/code&gt; に変更があった場合は、変更をプッシュできなくなることがあります。以下の手順でリモートの&lt;code&gt;dev&lt;/code&gt;の変更を取り込んでから再度プッシュして下さい：&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git fetch origin 
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# モートリポジトリの `dev` ブランチの最新状態を取得&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git fetch origin dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# &amp;lt;username&amp;gt;の部分は自分の命名したユーザー名に置き換え&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout feature/&amp;lt;username&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# どちらでもOK（チーム標準に合わせる） &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge origin/dev 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# または &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rebase origin/dev git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# ローカルのdevブランチに最新版のdevをマージ&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge origin/dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# `fetch` + `merge` を一度にやりたい場合はこちらでも可&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull --no-rebase origin dev &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -1435,6 +1469,9 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;p&gt;お疲れ様でした！！
+プルリクエストが承認され、&lt;code&gt;main&lt;/code&gt;ブランチに変更がマージされたらトップページにあなたの変更が反映されます。
+この練習が終了したら、次は実際にQom Wikiの編集に参加してみましょう。&lt;/p&gt;
 
       </description>
     </item>

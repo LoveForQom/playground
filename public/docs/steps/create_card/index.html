@@ -11,103 +11,73 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Step 2 – Playground</title>
-  <meta name="description" content="トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する カードに値を追加してStep 1で作成したファイルとリンクさせる クラスにスタイルを追加して調整する 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！
-ファイル: content/_index.md
-対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。
-📟 各パラメータの意味 feature-cardの主要属性 属性名 役割 例 title カードの見出し &#34;Love For Qom&#34; subtitle 補足説明（見出しの下） &#34;What this place is and why we&#39;re here.&#34; link リンクのパスを指定 内部リンク・外部リンク可 class カードの外枠に適用するTailwindクラス（Hextraはhx-付き） hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px] image カード背景や上部に表示する画像パス &#34;images/sample1.jpg&#34; imageClass 画像要素に適用するクラス hx-absolute hx-max-w-[100%] ... style インラインCSSスタイルを直接指定 background: radial-gradient(...) クラス指定の意味（今回の例） class=&#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&#34; hx-aspect-auto → 縦横比を自動設定" /><link rel="canonical" href="//localhost:1313/docs/steps/create_card/" itemprop="url" />
+  <meta name="description" content="🪪トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する クラスにスタイルを追加して調整する カードにリンクを追加してStep 1で作成したファイルとリンクさせる 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！
+1. カードセクションの追加 ファイル: content/_index.md
+対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。
+# カードを囲むグリッドのセクションのためのショートコード {{&lt; hextra/feature-grid &gt;}} # カードのショートコード（各種パラメータを設定） {{&lt; card title=&#34;your user name&#34; subtitle=&#34;something blur blur blur&#34; . . . &gt;}} . . . # グリッドのセクションのショートコードはここまで {{&lt; hextra/feature-grid &gt;}} 自分用の{{&lt; card &gt;}}ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像はcontent/imagesフォルダに追加して下さい。" /><link rel="canonical" href="//localhost:1313/docs/steps/create_card/" itemprop="url" />
 
 <meta property="og:title" content="Step 2" />
-<meta property="og:description" content="トップページに自分のカードを追加する
+<meta property="og:description" content="🪪トップページに自分のカードを追加する
     
 
 content/_index.mdを編集し、カードセクションを追加する
-    カードに値を追加してStep 1で作成したファイルとリンクさせる
     クラスにスタイルを追加して調整する
+    カードにリンクを追加してStep 1で作成したファイルとリンクさせる
     変更をコミット＆プッシュする
     
-今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！
-ファイル: content/_index.md
+今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！
+1. カードセクションの追加
+    ファイル: content/_index.md
 
 対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。
-今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。
-📟 各パラメータの意味
-    feature-cardの主要属性
-    
-  
-      
-          属性名
-          役割
-          例
-      
-  
-  
-      
-          title
-          カードの見出し
-          &quot;Love For Qom&quot;
-      
-      
-          subtitle
-          補足説明（見出しの下）
-          &quot;What this place is and why we&#39;re here.&quot;
-      
-      
-          link
-          リンクのパスを指定
-          内部リンク・外部リンク可
-      
-      
-          class
-          カードの外枠に適用するTailwindクラス（Hextraはhx-付き）
-          hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]
-      
-      
-          image
-          カード背景や上部に表示する画像パス
-          &quot;images/sample1.jpg&quot;
-      
-      
-          imageClass
-          画像要素に適用するクラス
-          hx-absolute hx-max-w-[100%] ...
-      
-      
-          style
-          インラインCSSスタイルを直接指定
-          background: radial-gradient(...)
-      
-  
+今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。
 
-クラス指定の意味（今回の例）
-    
 
-class=&#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&#34;
+# カードを囲むグリッドのセクションのためのショートコード
+
+{{&lt; hextra/feature-grid &gt;}}
+
+# カードのショートコード（各種パラメータを設定）
+
+{{&lt; card 
+title=&#34;your user name&#34;
+subtitle=&#34;something blur blur blur&#34;
+.
+.
+.
+&gt;}}
+
+.
+.
+.
+
+
+# グリッドのセクションのショートコードはここまで
+{{&lt; hextra/feature-grid &gt;}}
   
     
     
   
 
 
-
-
-hx-aspect-auto → 縦横比を自動設定" />
+自分用の{{&lt; card &gt;}}ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像はcontent/imagesフォルダに追加して下さい。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="//localhost:1313/docs/steps/create_card/" /><meta property="article:section" content="docs" />
 
 
 
   <meta itemprop="name" content="Step 2">
-  <meta itemprop="description" content="トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する カードに値を追加してStep 1で作成したファイルとリンクさせる クラスにスタイルを追加して調整する 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！
-ファイル: content/_index.md
-対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。
-📟 各パラメータの意味 feature-cardの主要属性 属性名 役割 例 title カードの見出し &#34;Love For Qom&#34; subtitle 補足説明（見出しの下） &#34;What this place is and why we&#39;re here.&#34; link リンクのパスを指定 内部リンク・外部リンク可 class カードの外枠に適用するTailwindクラス（Hextraはhx-付き） hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px] image カード背景や上部に表示する画像パス &#34;images/sample1.jpg&#34; imageClass 画像要素に適用するクラス hx-absolute hx-max-w-[100%] ... style インラインCSSスタイルを直接指定 background: radial-gradient(...) クラス指定の意味（今回の例） class=&#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&#34; hx-aspect-auto → 縦横比を自動設定">
-  <meta itemprop="wordCount" content="123">
+  <meta itemprop="description" content="🪪トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する クラスにスタイルを追加して調整する カードにリンクを追加してStep 1で作成したファイルとリンクさせる 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！
+1. カードセクションの追加 ファイル: content/_index.md
+対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。
+# カードを囲むグリッドのセクションのためのショートコード {{&lt; hextra/feature-grid &gt;}} # カードのショートコード（各種パラメータを設定） {{&lt; card title=&#34;your user name&#34; subtitle=&#34;something blur blur blur&#34; . . . &gt;}} . . . # グリッドのセクションのショートコードはここまで {{&lt; hextra/feature-grid &gt;}} 自分用の{{&lt; card &gt;}}ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像はcontent/imagesフォルダに追加して下さい。">
+  <meta itemprop="wordCount" content="161">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Step 2">
-  <meta name="twitter:description" content="トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する カードに値を追加してStep 1で作成したファイルとリンクさせる クラスにスタイルを追加して調整する 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！
-ファイル: content/_index.md
-対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。
-📟 各パラメータの意味 feature-cardの主要属性 属性名 役割 例 title カードの見出し &#34;Love For Qom&#34; subtitle 補足説明（見出しの下） &#34;What this place is and why we&#39;re here.&#34; link リンクのパスを指定 内部リンク・外部リンク可 class カードの外枠に適用するTailwindクラス（Hextraはhx-付き） hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px] image カード背景や上部に表示する画像パス &#34;images/sample1.jpg&#34; imageClass 画像要素に適用するクラス hx-absolute hx-max-w-[100%] ... style インラインCSSスタイルを直接指定 background: radial-gradient(...) クラス指定の意味（今回の例） class=&#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&#34; hx-aspect-auto → 縦横比を自動設定">
+  <meta name="twitter:description" content="🪪トップページに自分のカードを追加する content/_index.mdを編集し、カードセクションを追加する クラスにスタイルを追加して調整する カードにリンクを追加してStep 1で作成したファイルとリンクさせる 変更をコミット＆プッシュする 今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！
+1. カードセクションの追加 ファイル: content/_index.md
+対象ファイルのコードを確認すると、今回はmdファイルの中に &lt;div&gt;タグ などのHTMLタグと {{&lt; hextra/hero-section &gt;}} のようなショートコードが使われていることがわかります。 今回対象となるカードセクションは、まず{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード {{&lt; card &gt;}}　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。
+# カードを囲むグリッドのセクションのためのショートコード {{&lt; hextra/feature-grid &gt;}} # カードのショートコード（各種パラメータを設定） {{&lt; card title=&#34;your user name&#34; subtitle=&#34;something blur blur blur&#34; . . . &gt;}} . . . # グリッドのセクションのショートコードはここまで {{&lt; hextra/feature-grid &gt;}} 自分用の{{&lt; card &gt;}}ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像はcontent/imagesフォルダに追加して下さい。">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -221,34 +191,7 @@ hx-aspect-auto → 縦横比を自動設定" />
   >Documentation
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/first-page/"
-    
-  >Demo Page
-    </a>
-              
-            </li><li class="hx-flex hx-flex-col open"><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/folder/"
-    
-  >Folder
-        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
-    </a>
-              <div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/folder/leaf/"
-    
-  >Leaf Page
-    </a>
-              
-            </li></ul>
-      </div>
-            </li><li class="hx-flex hx-flex-col open"><a
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/members/"
@@ -262,7 +205,7 @@ hx-aspect-auto → 縦横比を自動設定" />
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/members/love/"
     
-  >Love
+  >Love For Qom
     </a>
               
             </li></ul>
@@ -339,31 +282,25 @@ hx-aspect-auto → 縦横比を自動設定" />
               <a
                 href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >トップページに自分のカードを追加する</a>
+              >🪪トップページに自分のカードを追加する</a>
             </li>
           <li>
               <a
-                href="#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3"
+                href="#1-%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%bf%bd%e5%8a%a0"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >📟 各パラメータの意味</a>
+              >1. カードセクションの追加</a>
             </li>
           <li>
               <a
-                href="#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b"
+                href="#2-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >クラス指定の意味（今回の例）</a>
+              >2. カードにリンクを追加する</a>
             </li>
           <li>
               <a
-                href="#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3"
+                href="#3-%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >背景スタイルの意味</a>
-            </li>
-          <li>
-              <a
-                href="#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >変更をコミット＆プッシュ</a>
+              >3. 変更をコミット＆プッシュ</a>
             </li>
           </ul>
   
@@ -391,31 +328,6 @@ hx-aspect-auto → 縦横比を自動設定" />
 
     <ul class="hx-flex hx-flex-col hx-gap-1 max-md:hx-hidden">
         
-          <li class=""><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/first-page/"
-    
-  >Demo Page
-    </a></li>
-          <li class="open"><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/folder/"
-    
-  >Folder
-        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
-    </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/folder/leaf/"
-    
-  >Leaf Page
-    </a>
-              
-            </li></ul>
-      </div></li>
           <li class="open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
@@ -429,7 +341,7 @@ hx-aspect-auto → 縦横比を自動設定" />
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/members/love/"
     
-  >Love
+  >Love For Qom
     </a>
               
             </li></ul>
@@ -529,7 +441,7 @@ hx-aspect-auto → 縦横比を自動設定" />
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b">トップページに自分のカードを追加する
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b">🪪トップページに自分のカードを追加する
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -537,11 +449,11 @@ hx-aspect-auto → 縦横比を自動設定" />
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e5%80%a4%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b">カードに値を追加してStep 1で作成したファイルとリンクさせる
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b">クラスにスタイルを追加して調整する
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b">クラスにスタイルを追加して調整する
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b">カードにリンクを追加してStep 1で作成したファイルとリンクさせる
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -549,23 +461,31 @@ hx-aspect-auto → 縦横比を自動設定" />
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3">📟 各パラメータの意味
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#1-%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%bf%bd%e5%8a%a0">1. カードセクションの追加
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7">feature-cardの主要属性
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3">📟 各パラメータの意味
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b">クラス指定の意味（今回の例）
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7">feature-cardの主要属性
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3">背景スタイルの意味
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b">クラス指定の意味（今回の例）
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5">変更をコミット＆プッシュ
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3">背景スタイルの意味
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#2-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b">2. カードにリンクを追加する
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#3-%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5">3. 変更をコミット＆プッシュ
         </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/imfing/hextra-starter-template/edit/main/content/docs/steps/create_card.md" target="_blank" rel="noreferrer">Edit this page on GitHub →</a>
@@ -594,22 +514,56 @@ hx-aspect-auto → 縦横比を自動設定" />
 
         <div class="content">
           <h1>Step 2</h1>
-          <h2>トップページに自分のカードを追加する<span class="hx-absolute -hx-mt-20" id="トップページに自分のカードを追加する"></span>
-    <a href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><img src="../../images/feature_card.JPG" alt="feature card" loading="lazy" /></p>
+          <h2>🪪トップページに自分のカードを追加する<span class="hx-absolute -hx-mt-20" id="トップページに自分のカードを追加する"></span>
+    <a href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><img src="/images/feature_card.JPG" alt="feature card" loading="lazy" /></p>
 <div class="steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]">
 <h3><code>content/_index.md</code>を編集し、カードセクションを追加する<span class="hx-absolute -hx-mt-20" id="content_indexmdを編集しカードセクションを追加する"></span>
-    <a href="#content_indexmd%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%97%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>カードに値を追加して<code>Step 1</code>で作成したファイルとリンクさせる<span class="hx-absolute -hx-mt-20" id="カードに値を追加してstep-1で作成したファイルとリンクさせる"></span>
-    <a href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e5%80%a4%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>クラスにスタイルを追加して調整する<span class="hx-absolute -hx-mt-20" id="クラスにスタイルを追加して調整する"></span>
-    <a href="#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>変更をコミット＆プッシュする<span class="hx-absolute -hx-mt-20" id="変更をコミットプッシュする"></span>
+    <a href="#content_indexmd%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%97%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>クラスにスタイルを追加して調整する<span class="hx-absolute -hx-mt-20" id="クラスにスタイルを追加して調整する"></span>
+    <a href="#%e3%82%af%e3%83%a9%e3%82%b9%e3%81%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>カードにリンクを追加して<code>Step 1</code>で作成したファイルとリンクさせる<span class="hx-absolute -hx-mt-20" id="カードにリンクを追加してstep-1で作成したファイルとリンクさせる"></span>
+    <a href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a6step-1%e3%81%a7%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a8%e3%83%aa%e3%83%b3%e3%82%af%e3%81%95%e3%81%9b%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>変更をコミット＆プッシュする<span class="hx-absolute -hx-mt-20" id="変更をコミットプッシュする"></span>
     <a href="#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h3></div>
-<p>今回は、ホーム画面に画像付きのカードを作成し、Step1で作成した自己紹介のmdファイルとリンクさせます。早速始めていきましょう！</p>
-<p>ファイル: <strong><code>content/_index.md</code></strong></p>
-<p><img src="../../images/codes.JPG" alt="Codes" loading="lazy" /></p>
+<p>今回は、ホーム画面に画像付きのカードを作成し、<strong>Step1</strong>で作成した自己紹介のmdファイルとリンクさせます。具体的な見た目の調整や値の調整の作業が中心になります。細かい調整の方法を体験していきましょう！</p>
+<h2>1. カードセクションの追加<span class="hx-absolute -hx-mt-20" id="1-カードセクションの追加"></span>
+    <a href="#1-%e3%82%ab%e3%83%bc%e3%83%89%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>ファイル: <strong><code>content/_index.md</code></strong></p>
+<p><img src="/images/codes.JPG" alt="Codes" loading="lazy" /></p>
 <p>対象ファイルのコードを確認すると、今回はmdファイルの中に <strong><code>&lt;div&gt;タグ</code></strong> などのHTMLタグと <strong><code>{{&lt; hextra/hero-section &gt;}}</code></strong> のようなショートコードが使われていることがわかります。
-今回対象となるカードセクションは、まず<code>{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}</code>というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード <code>{{&lt; card &gt;}}</code>　が複数のプロパティ付きで装飾されています。</p>
-<h2>📟 各パラメータの意味<span class="hx-absolute -hx-mt-20" id="-各パラメータの意味"></span>
-    <a href="#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>feature-cardの主要属性<span class="hx-absolute -hx-mt-20" id="feature-cardの主要属性"></span>
-    <a href="#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><table>
+今回対象となるカードセクションは、まず<code>{{&lt; hextra/feature-grid &gt;}} ... {{&lt; /hextra/feature-grid &gt;}}</code>というカードが格納されるコンテナのようなセクションがあり、その中に自分のカードのショートコード <code>{{&lt; card &gt;}}</code>　が複数のプロパティ付きで装飾されています。このショートコードを適切な位置に追加してみましょう。</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl"><span class="gh"># カードを囲むグリッドのセクションのためのショートコード
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">hextra</span><span class="err">/</span><span class="na">feature-grid</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># カードのショートコード（各種パラメータを設定）
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">card</span> 
+</span></span><span class="line"><span class="cl"><span class="na">title</span><span class="o">=</span><span class="s">&#34;your user name&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="na">subtitle</span><span class="o">=</span><span class="s">&#34;something blur blur blur&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="err">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">.</span>
+</span></span><span class="line"><span class="cl"><span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># グリッドのセクションのショートコードはここまで
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>{{<span class="p">&lt;</span> <span class="nt">hextra</span><span class="err">/</span><span class="na">feature-grid</span> <span class="p">&gt;</span>}}</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+<p>自分用の<code>{{&lt; card &gt;}}</code>ショートコードを追加し、以下を参考にカスタマイズしてみましょう。また、カードに使用したい画像は<code>content/images</code>フォルダに追加して下さい。</p>
+<h3>📟 各パラメータの意味<span class="hx-absolute -hx-mt-20" id="-各パラメータの意味"></span>
+    <a href="#-%e5%90%84%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%81%ae%e6%84%8f%e5%91%b3" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>feature-cardの主要属性<span class="hx-absolute -hx-mt-20" id="feature-cardの主要属性"></span>
+    <a href="#feature-card%e3%81%ae%e4%b8%bb%e8%a6%81%e5%b1%9e%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><table>
   <thead>
       <tr>
           <th>属性名</th>
@@ -655,8 +609,8 @@ hx-aspect-auto → 縦横比を自動設定" />
       </tr>
   </tbody>
 </table>
-<h2>クラス指定の意味（今回の例）<span class="hx-absolute -hx-mt-20" id="クラス指定の意味今回の例"></span>
-    <a href="#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h4>クラス指定の意味（今回の例）<span class="hx-absolute -hx-mt-20" id="クラス指定の意味今回の例"></span>
+    <a href="#%e3%82%af%e3%83%a9%e3%82%b9%e6%8c%87%e5%ae%9a%e3%81%ae%e6%84%8f%e5%91%b3%e4%bb%8a%e5%9b%9e%e3%81%ae%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 
 <div><pre><code>class=&#34;hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]&#34;</code></pre></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
@@ -709,8 +663,8 @@ hx-aspect-auto → 縦横比を自動設定" />
 </li>
 </ul>
 <hr>
-<h2>背景スタイルの意味<span class="hx-absolute -hx-mt-20" id="背景スタイルの意味"></span>
-    <a href="#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+<h3>背景スタイルの意味<span class="hx-absolute -hx-mt-20" id="背景スタイルの意味"></span>
+    <a href="#%e8%83%8c%e6%99%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e6%84%8f%e5%91%b3" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 
 <div><pre><code>style=&#34;background: radial-gradient(ellipse at 50% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));&#34;</code></pre></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
@@ -737,8 +691,10 @@ hx-aspect-auto → 縦横比を自動設定" />
   <p>参考：Hextra の <strong>Card</strong> ショートコード（使用例・パラメータ） <a href="https://imfing.github.io/hextra/docs/guide/shortcodes/cards/" target="_blank" rel="noopener">IDocument</a>
 <a href="https://tailwindcss.com/docs/installation/using-vite" target="_blank" rel="noopener">tailwindcss</a></p>
 </blockquote>
-<h2>変更をコミット＆プッシュ<span class="hx-absolute -hx-mt-20" id="変更をコミットプッシュ"></span>
-    <a href="#%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><code>link</code>のパスが記述できたらホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
+<h2>2. カードにリンクを追加する<span class="hx-absolute -hx-mt-20" id="2-カードにリンクを追加する"></span>
+    <a href="#2-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ab%e3%83%aa%e3%83%b3%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>カードに値を追加できたら<code>Step 1</code>で作成した記事とリンクさせるために<code>link</code>プロパティを追加し、適切な相対パスを使用してカードと記事とをリンクさせて下さい。相対パスをどのように記述するかは自分で考えてみましょう。（わからなければ実際のコードを見て下さい。）</p>
+<h2>3. 変更をコミット＆プッシュ<span class="hx-absolute -hx-mt-20" id="3-変更をコミットプッシュ"></span>
+    <a href="#3-%e5%a4%89%e6%9b%b4%e3%82%92%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><code>link</code>のパスが記述できたらローカルサーバー：1313を起動し、ブラウザからアクセスして下さい。ホーム画面から画像をクリックして、意図した画面（自分の紹介ページ）に画面が遷移するか確認しましょう。
 確認ができたら自分のブランチに変更をコミット＆プッシュしておきましょう。次はいよいよプルリクエストの作成です。</p>
 
         </div>

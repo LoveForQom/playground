@@ -16,9 +16,9 @@ Playgroundはチーム全員が **Gitflow** メソッドを体験しながら、
 Qom Wikiと同様の構成を再現した環境で、本ページの説明を見ながら実際に自分自身で作ってみることでページの構成要素や各パラメータの扱いなど、基本的な操作を理解し、共に飛行訓練に参加するための準備をここで行うことを目的とします。
 
 #### 対象：
--　Qom Wikiの編集に参加してみたいが具体的な方法・手段を知りたい方
+- Qom Wikiの編集に参加してみたいが具体的な方法・手段を知りたい方
 
--　Gitの扱いに自信がなく、一度説明を見ながら体験をしてみたい方
+- Gitの扱いに自信がなく、一度説明を見ながら体験をしてみたい方
 
 #### 期待される成果：
 - Obsidianを利用したmd ファイルの効率的な編集とレイアウト調整
@@ -77,7 +77,7 @@ hugo server --buildDrafts --disableFastRender
 - ブラウザで `http://localhost:1313/` を開くとプレビューできます。
     
 - このリポジトリは **Hugo の Hextra テンプレート**のクイックスタート構成を使用しています。
- [IMFing](https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com),[GitHub](https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com)
+ [Hextra Documents](https://imfing.github.io/hextra/docs/getting-started/?utm_source=chatgpt.com),[GitHub](https://github.com/imfing/hextra-starter-template?utm_source=chatgpt.com)
 
 
 

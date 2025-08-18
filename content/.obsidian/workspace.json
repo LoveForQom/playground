@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "docs/members/love.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "love"
             }
           }
         ]
@@ -170,12 +170,13 @@
   },
   "active": "8d8387850aadc401",
   "lastOpenFiles": [
-    "introduction.md",
-    "docs/steps/edit_md.md",
     "docs/steps/create_card.md",
-    "images/hands_on.JPG",
-    "_index.md",
+    "docs/steps/edit_md.md",
     "docs/steps/pull_request.md",
+    "images/pullrequest.JPG",
+    "_index.md",
+    "introduction.md",
+    "images/hands_on.JPG",
     "docs/members/love.md",
     "images/feature_card.JPG",
     "images/feature_card..JPG",

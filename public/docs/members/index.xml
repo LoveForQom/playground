@@ -15,7 +15,7 @@
     
     
     <item>
-      <title></title>
+      <title>Love For Qom</title>
       <link>//localhost:1313/docs/members/love/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,22 @@
       <description>
         
         
-        
+        &lt;h1&gt;見出し&lt;/h1&gt;&lt;p&gt;&lt;em&gt;# ~ ######&lt;/em&gt; (h1 ~ h6)までの見出しの文字の大きさを指定できます。&lt;/p&gt;
+&lt;p&gt;画像を差し込みたい場合は、&lt;code&gt;content/images&lt;/code&gt;フォルダに画像を格納。
+&amp;ldquo;! [テキスト] (ファイルパス)&amp;ldquo;という記述で差し込むことができます。
+&lt;code&gt;images&lt;/code&gt;フォルダにある&lt;code&gt;love.jpg&lt;/code&gt;を差し込みたい場合は、以下のように記述します。(相対パスに注意)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; alt=&#34;Love For Qom&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）&lt;/p&gt;
+&lt;figure class=&#34;img-fluid&#34;&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; width=&#34;400&#34; height=&#34;400&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter: …&lt;/li&gt;
+&lt;li&gt;Telegram: …&lt;/li&gt;
+&lt;li&gt;Link: …&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
