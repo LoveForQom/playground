@@ -18,7 +18,7 @@ sidebar:
 ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）
 
 
-{{< figure src="/images/love.JPG" title="" class="img-fluid" width="400" height="400" >}}
+{{< figure src="../../../images/love.JPG" title="" class="img-fluid" width="400" height="400" >}}
 
 その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。
 
