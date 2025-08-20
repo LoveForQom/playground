@@ -15,6 +15,28 @@
     
     
     <item>
+      <title>chihuahua</title>
+      <link>//localhost:1313/docs/members/chihuahua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/members/chihuahua/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;//localhost:1313/images/chihuahua.jpg&#34; alt=&#34;chihuahua&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;font color=&#34;#2DC26B&#34;&gt;&lt;strong&gt;name&lt;/strong&gt;&lt;/font&gt; MS. chihuahua aka ayc3361&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;name-ms-chihuahua-aka-ayc3361&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#name-ms-chihuahua-aka-ayc3361&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Programming skills: 　Beginner&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;programming-skills-beginner&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#programming-skills-beginner&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h2&gt;自己紹介&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;自己紹介&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%87%aa%e5%b7%b1%e7%b4%b9%e4%bb%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;普段は、基本的に子育てに奮闘しています。
+プログラミングに興味を持ち、子育ての隙間時間で悪戦苦闘しながら挑戦しています。&lt;/p&gt;
+&lt;p&gt;🍀趣味：旅行、YouTube鑑賞、ゲーム&lt;/p&gt;
+&lt;h2&gt;CONTACT&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;X：&lt;a href=&#34;https://x.com/3361ayaca?s=21&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Love For Qom</title>
       <link>//localhost:1313/docs/members/love/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,7 +51,7 @@
 &lt;code&gt;images&lt;/code&gt;フォルダにある&lt;code&gt;love.jpg&lt;/code&gt;を差し込みたい場合は、以下のように記述します。(相対パスに注意)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; alt=&#34;Love For Qom&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）&lt;/p&gt;
-&lt;figure class=&#34;img-fluid&#34;&gt;&lt;img src=&#34;//localhost:1313/images/love.JPG&#34; width=&#34;400&#34; height=&#34;400&#34;&gt;
+&lt;figure class=&#34;img-fluid&#34;&gt;&lt;img src=&#34;../../../images/love.JPG&#34; width=&#34;400&#34; height=&#34;400&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。&lt;/p&gt;

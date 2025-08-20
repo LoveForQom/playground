@@ -6,6 +6,10 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/chihuahua/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/members/chihuahua/</loc>
+  </url><url>
     <loc>//localhost:1313/docs/references/hugo/classes/</loc>
   </url><url>
     <loc>//localhost:1313/docs/</loc>

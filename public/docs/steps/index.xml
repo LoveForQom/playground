@@ -23,8 +23,8 @@
       <description>
         
         
-        &lt;h2&gt;Obsidianを使ってmdファイルで自分のメンバーページを作る&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;obsidianを使ってmdファイルで自分のメンバーページを作る&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#obsidian%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6md%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%a7%e8%87%aa%e5%88%86%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+        &lt;h2&gt;📝Obsidianを使って自分の紹介ページを編集する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;obsidianを使って自分の紹介ページを編集する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#obsidian%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e8%87%aa%e5%88%86%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
 &lt;h3&gt;自分の名前の&lt;code&gt;.md&lt;/code&gt;ファイルを&lt;code&gt;content/docs/members&lt;/code&gt;ディレクトリに作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;自分の名前のmdファイルをcontentdocsmembersディレクトリに作成&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e8%87%aa%e5%88%86%e3%81%ae%e5%90%8d%e5%89%8d%e3%81%aemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92contentdocsmembers%e3%83%87%e3%82%a3%e3%83%ac%e3%82%af%e3%83%88%e3%83%aa%e3%81%ab%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;Obsidianでファイルを編集&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;obsidianでファイルを編集&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#obsidian%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;変更をコミット＆プッシュする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;変更をコミットプッシュする&#34;&gt;&lt;/span&gt;
@@ -59,7 +59,7 @@
 &lt;h2&gt;2. Obsidianで&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを編集する。&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-obsidianでusernamemdファイルを編集する&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-obsidian%e3%81%a7usernamemd%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e7%b7%a8%e9%9b%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/obsidian.JPG&#34; alt=&#34;Obsidian&#34; loading=&#34;lazy&#34; /&gt;
 Obsidianを使うとマークダウンファイルの編集作業効率が非常に上がるのでおすすめです。先ほど作成したファイルをObsidianで開いてみましょう。
-まずはObsidianのホーム画面の &lt;strong&gt;「保管庫としてフォルダを開く」&lt;/strong&gt; から、&lt;code&gt;menbers&lt;/code&gt;フォルダを選択します。先ほど作成した&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを自由に編集してみて下さい。マークダウン記法を使うと、記述した内容が実際にサイトで表示されるようにレンダリングされていることがわかると思います。見た目の調整はObsidianで編集することで大まかな部分を整えつつ、細かい部分はローカルホストで立ち上げたブラウザを確認しながら進めることをお勧めします。&lt;/p&gt;
+まずはObsidianのホーム画面の &lt;strong&gt;「保管庫としてフォルダを開く」&lt;/strong&gt; から、&lt;code&gt;members&lt;/code&gt;フォルダを選択します。先ほど作成した&lt;code&gt;&amp;lt;username&amp;gt;.md&lt;/code&gt;ファイルを自由に編集してみて下さい。マークダウン記法を使うと、記述した内容が実際にサイトで表示されるようにレンダリングされていることがわかると思います。見た目の調整はObsidianで編集することで大まかな部分を整えつつ、細かい部分はローカルホストで立ち上げたブラウザを確認しながら進めることをお勧めします。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;members/&amp;lt;username&amp;gt;.md&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# フロントマターを先頭に記述
@@ -67,7 +67,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;type: docs 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sidebar:   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;　open: true 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  open: true 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 見出し
@@ -82,7 +82,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ショートコードを使うことでhextraに定義された特殊なレンダリングを使うこともできます。幅と高さを指定することや画像の表示形式を指定することも可能です。（幅400 x 高さ400）
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;figure&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/images/love.JPG&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;img-fluid&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;figure&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;../../../images/love.JPG&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;img-fluid&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;その他自己紹介やスキル、プロジェクトへの意気込みなどを、マークダウン記法を使いながら自由に書いてください。
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -160,7 +160,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
       <description>
         
         
-        &lt;h2&gt;トップページに自分のカードを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;トップページに自分のカードを追加する&#34;&gt;&lt;/span&gt;
+        &lt;h2&gt;🪪トップページに自分のカードを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;トップページに自分のカードを追加する&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ab%e3%83%bc%e3%83%89%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/feature_card.JPG&#34; alt=&#34;feature card&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
 &lt;h3&gt;&lt;code&gt;content/_index.md&lt;/code&gt;を編集し、カードセクションを追加する&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;content_indexmdを編集しカードセクションを追加する&#34;&gt;&lt;/span&gt;
@@ -355,7 +355,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
       <description>
         
         
-        &lt;h2&gt;プルリクエスト(PR) を作成する（devブランチに向けて）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プルリクエストpr-を作成するdevブランチに向けて&#34;&gt;&lt;/span&gt;
+        &lt;h2&gt;🎤プルリクエスト(PR) を作成する（devブランチに向けて）&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プルリクエストpr-を作成するdevブランチに向けて&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%97%e3%83%ab%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88pr-%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8bdev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ab%e5%90%91%e3%81%91%e3%81%a6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
 &lt;h3&gt;GitHub 上で ** &lt;code&gt;dev&lt;/code&gt;ブランチにPR作成&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;github-上で--devブランチにpr作成&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#github-%e4%b8%8a%e3%81%a7--dev%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%81%abpr%e4%bd%9c%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;レビューを受け、修正があれば修正を行う =&amp;gt; 問題なければマージ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;レビューを受け修正があれば修正を行う--問題なければマージ&#34;&gt;&lt;/span&gt;
@@ -447,7 +447,7 @@ Obsidianを使うとマークダウンファイルの編集作業効率が非常
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;お疲れ様でした！！
+&lt;p&gt;お疲れ様でした！！🙌
 プルリクエストが承認され、&lt;code&gt;main&lt;/code&gt;ブランチに変更がマージされたらトップページにあなたの変更が反映されます。
 この練習が終了したら、次は実際にQom Wikiの編集に参加してみましょう。&lt;/p&gt;
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/members/love.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "love"
+              "title": "_index"
             }
           }
         ]
@@ -170,20 +170,24 @@
   },
   "active": "8d8387850aadc401",
   "lastOpenFiles": [
+    "chihuahua.jpg",
+    "chihuahua.md",
+    "docs/members/_index.md",
+    "_index.md",
+    "docs/members/chihuahua.md",
+    "docs/members/love.md",
+    "images/chihuahua.jpg",
     "docs/steps/create_card.md",
     "docs/steps/edit_md.md",
     "docs/steps/pull_request.md",
     "images/pullrequest.JPG",
-    "_index.md",
     "introduction.md",
     "images/hands_on.JPG",
-    "docs/members/love.md",
     "images/feature_card.JPG",
     "images/feature_card..JPG",
     "images/codes.JPG",
     "images.md",
     "images/obsidian.JPG",
-    "docs/members/_index.md",
     "docs/steps/_index.md",
     "images/terminal.JPG",
     "docs/references/hugo/classes.md",
@@ -191,7 +195,6 @@
     "docs/steps",
     "images/loveforqom.JPG",
     "images/love.JPG",
-    "images/playground.JPG",
     "docs/references/hugo/hero.md",
     "docs/references/git/gitflow.md",
     "docs/references/git/git-commands.md",
