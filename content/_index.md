@@ -43,7 +43,6 @@ layout: "index-playground"
     style="background: radial-gradient(ellipse at 20% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));"
   >}}
 
-  <!-- add your card below -->
 
 {{< card 
 title="Ms.chihuahua"
@@ -56,4 +55,6 @@ style="background: radial-gradient(ellipse at 20% 80%,rgba(200,80,0,0.3),hsla(0,
 
 >}}
 
+  <!-- add your card below -->
+  
 {{< /hextra/feature-grid >}}
