@@ -43,7 +43,18 @@ layout: "index-playground"
     style="background: radial-gradient(ellipse at 20% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));"
   >}}
 
+
+{{< card 
+title="Ms.chihuahua"
+subtitle="self-introduction"
+link="docs/members/chihuahua"
+class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+image="images/chihuahua.jpg"
+imageClass="hx-absolute hx-max-w-[100%] lg:hx-w-[150%] md:hx-w-[150%] sm:hx-w-[110%] dark:hx-opacity-80"
+style="background: radial-gradient(ellipse at 20% 80%,rgba(200,80,0,0.3),hsla(0,0%,100%,0));"
+
+>}}
+
   <!-- add your card below -->
-
-
+  
 {{< /hextra/feature-grid >}}

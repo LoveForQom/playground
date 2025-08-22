@@ -8,6 +8,8 @@ resources/
 
 # Obsidian
 .obsidian/workspace.json
+content/.obsidian/workspace.json
+content/docs/members/.obsidian/workspace.json
 
 # Mac Finder
 .DS_Store
